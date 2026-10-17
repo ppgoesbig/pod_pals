@@ -1,0 +1,56 @@
+name: render
+
+on:
+  push:
+    branches: [main]
+    paths: ["scripts/**", "config.json", "tools/**"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: render
+  cancel-in-progress: false
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    environment:
+      name: github-pages
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Check key
+        env:
+          K: ${{ secrets.llave }}
+          V: ${{ vars.llave }}
+        run: |
+          if [ -n "$K" ]; then echo "::notice::secret llave present (${#K} chars)"; exit 0; fi
+          if [ -n "$V" ]; then echo "::error::llave is saved as a Variable, not a Secret"; exit 1; fi
+          echo "::error::no repository secret named llave was found"; exit 1
+
+      - name: Install ffmpeg
+        run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+
+      - name: Render
+        env:
+          OPENROUTER_API_KEY: ${{ secrets.llave }}
+        run: python3 tools/memo.py all
+
+      - name: Commit audio and feed
+        run: |
+          git config user.name "memo-bot"
+          git config user.email "memo-bot@users.noreply.github.com"
+          git add site
+          git diff --cached --quiet || git commit -m "render $(date -u +%F)"
+          git pull --rebase -q && git push
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - uses: actions/deploy-pages@v4
