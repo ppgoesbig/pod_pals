@@ -71,12 +71,17 @@ def chunks(text: str, limit: int):
 
 # ---------- audio ----------
 
-def tts(text: str, model: str, voice: str) -> bytes:
+PCM_ONLY = ("google/",)   # these providers reject mp3 and return raw 24kHz 16-bit mono PCM
+
+
+def tts(text: str, model: str, voice: str):
+    """Returns (audio_bytes, fmt) where fmt is 'mp3' or 'pcm'."""
     key = os.environ.get("OPENROUTER_API_KEY")
     if not key:
         sys.exit("OPENROUTER_API_KEY is not set")
+    fmt = "pcm" if model.startswith(PCM_ONLY) else "mp3"
     body = json.dumps({"model": model, "input": text, "voice": voice,
-                       "response_format": "mp3"}).encode()
+                       "response_format": fmt}).encode()
     for attempt in range(4):
         req = urllib.request.Request(API, data=body, headers={
             "Authorization": f"Bearer {key}",
@@ -89,9 +94,14 @@ def tts(text: str, model: str, voice: str) -> bytes:
                 data = r.read()
             if len(data) < 1000:
                 raise RuntimeError(f"suspiciously small audio ({len(data)} bytes)")
-            return data
+            return data, fmt
         except urllib.error.HTTPError as e:
             msg = e.read().decode(errors="replace")[:400]
+            if e.code == 400 and fmt == "mp3" and '"pcm"' in msg:
+                fmt = "pcm"
+                body = json.dumps({"model": model, "input": text, "voice": voice,
+                                   "response_format": fmt}).encode()
+                continue
             if e.code in (429, 500, 502, 503, 504) and attempt < 3:
                 time.sleep(5 * 2 ** attempt)
                 continue
@@ -111,15 +121,12 @@ def render(text: str, model: str, voice: str, out: Path, limit: int):
         wavs = []
         for i, piece in enumerate(chunks(text, limit)):
             raw = tmp / f"raw{i}"
-            raw.write_bytes(tts(piece, model, voice))
+            data, fmt = tts(piece, model, voice)
+            raw.write_bytes(data)
             wav = tmp / f"c{i}.wav"
-            # format-agnostic: ffmpeg sniffs mp3/wav/ogg; raw PCM gets a second try
-            r = subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-i", raw,
-                                "-ar", "44100", "-ac", "1", wav], capture_output=True)
-            if r.returncode != 0:
-                subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "s16le",
-                                "-ar", "24000", "-ac", "1", "-i", raw,
-                                "-ar", "44100", "-ac", "1", wav], check=True)
+            src = ["-f", "s16le", "-ar", "24000", "-ac", "1"] if fmt == "pcm" else []
+            subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *src, "-i", raw,
+                            "-ar", "44100", "-ac", "1", wav], check=True)
             wavs.append(wav)
         gap = tmp / "gap.wav"
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "lavfi", "-i",
