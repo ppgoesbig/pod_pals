@@ -10,6 +10,14 @@
     <itunes:explicit>false</itunes:explicit>
     <itunes:block>Yes</itunes:block>
     <itunes:category text="News"/>
-
+    <item>
+      <title>Morning Memo - Sun Oct 18</title>
+      <description>Good morning Ziad. It&#x27;s Sunday, October eighteenth. Let&#x27;s get you set up for the day.</description>
+      <enclosure url="https://ppgoesbig.github.io/pod_pals/m-ER4yYdQyfNBC21IJ/episodes/2026-10-18.mp3" length="3081135" type="audio/mpeg"/>
+      <guid isPermaLink="false">memo-2026-10-18</guid>
+      <pubDate>Sun, 18 Oct 2026 06:00:00 -0400</pubDate>
+      <itunes:duration>4:16</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
   </channel>
 </rss>
