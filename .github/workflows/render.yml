@@ -3,7 +3,7 @@ name: render
 on:
   push:
     branches: [main]
-    paths: ["scripts/**", "config.json", "tools/**"]
+    paths: ["scripts/**", "config.json", "tools/**", ".github/workflows/**"]
   workflow_dispatch:
 
 permissions:
@@ -23,6 +23,8 @@ jobs:
       name: github-pages
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main   # always build the latest state, so re-runs never conflict
 
       - name: Check key
         env:
