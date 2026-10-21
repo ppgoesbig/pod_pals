@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0">
   <channel>
     <title>Morning Memo</title>
     <link>https://ppgoesbig.github.io/pod_pals/m-ER4yYdQyfNBC21IJ/</link>
@@ -18,6 +18,8 @@
       <pubDate>Wed, 21 Oct 2026 06:00:00 -0400</pubDate>
       <itunes:duration>4:43</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <podcast:transcript url="https://ppgoesbig.github.io/pod_pals/m-ER4yYdQyfNBC21IJ/episodes/2026-10-21.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://ppgoesbig.github.io/pod_pals/m-ER4yYdQyfNBC21IJ/episodes/2026-10-21.txt" type="text/plain" language="en"/>
     </item>
     <item>
       <title>Morning Memo - Tue Oct 20</title>
@@ -27,6 +29,8 @@
       <pubDate>Tue, 20 Oct 2026 06:00:00 -0400</pubDate>
       <itunes:duration>4:18</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <podcast:transcript url="https://ppgoesbig.github.io/pod_pals/m-ER4yYdQyfNBC21IJ/episodes/2026-10-20.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://ppgoesbig.github.io/pod_pals/m-ER4yYdQyfNBC21IJ/episodes/2026-10-20.txt" type="text/plain" language="en"/>
     </item>
     <item>
       <title>Morning Memo - Mon Oct 19</title>
@@ -36,6 +40,8 @@
       <pubDate>Mon, 19 Oct 2026 06:00:00 -0400</pubDate>
       <itunes:duration>4:10</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <podcast:transcript url="https://ppgoesbig.github.io/pod_pals/m-ER4yYdQyfNBC21IJ/episodes/2026-10-19.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://ppgoesbig.github.io/pod_pals/m-ER4yYdQyfNBC21IJ/episodes/2026-10-19.txt" type="text/plain" language="en"/>
     </item>
     <item>
       <title>Morning Memo - Sun Oct 18</title>
@@ -45,6 +51,8 @@
       <pubDate>Sun, 18 Oct 2026 06:00:00 -0400</pubDate>
       <itunes:duration>4:16</itunes:duration>
       <itunes:explicit>false</itunes:explicit>
+      <podcast:transcript url="https://ppgoesbig.github.io/pod_pals/m-ER4yYdQyfNBC21IJ/episodes/2026-10-18.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://ppgoesbig.github.io/pod_pals/m-ER4yYdQyfNBC21IJ/episodes/2026-10-18.txt" type="text/plain" language="en"/>
     </item>
   </channel>
 </rss>
