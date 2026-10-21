@@ -155,6 +155,32 @@ def duration(p: Path) -> int:
         return 0
 
 
+# ---------- transcripts ----------
+
+def _ts(t: float) -> str:
+    ms = int(round(t * 1000))
+    return f"{ms // 3600000:02d}:{ms // 60000 % 60:02d}:{ms // 1000 % 60:02d}.{ms % 1000:03d}"
+
+
+def write_transcripts(script: Path, secs: float):
+    """Write a WebVTT caption file and a plain-text transcript beside the episode.
+
+    The TTS gives no word timings, so each sentence gets a slice of the episode's
+    length in proportion to its characters. Close enough to follow along.
+    """
+    text = speakable(script.read_text())
+    sentences = [x.strip() for para in text.split("\n\n")
+                 for x in re.split(r"(?<=[.!?])\s+", para) if x.strip()]
+    total = sum(len(x) for x in sentences) or 1
+    cues, t = [], 0.0
+    for x in sentences:
+        end = t + secs * len(x) / total
+        cues.append(f"{_ts(t)} --> {_ts(end)}\n{x}")
+        t = end
+    (EPISODES / f"{script.stem}.vtt").write_text("WEBVTT\n\n" + "\n\n".join(cues) + "\n")
+    (EPISODES / f"{script.stem}.txt").write_text(text + "\n")
+
+
 # ---------- feed ----------
 
 def episode_title(day: dt.date) -> str:
@@ -170,11 +196,17 @@ def build_feed():
         day = dt.date.fromisoformat(mp3.stem)
         script = SCRIPTS / f"{mp3.stem}.md"
         summary = ""
+        secs = duration(mp3)
+        transcript = ""
         if script.exists():
             first = next((l for l in speakable(script.read_text()).splitlines() if l), "")
             summary = first[:240]
+            if secs:
+                write_transcripts(script, secs)
+                transcript = (
+                    f'\n      <podcast:transcript url="{base}/episodes/{mp3.stem}.vtt" type="text/vtt" language="en"/>'
+                    f'\n      <podcast:transcript url="{base}/episodes/{mp3.stem}.txt" type="text/plain" language="en"/>')
         pub = dt.datetime.combine(day, dt.time(6, 0), tzinfo=dt.timezone(dt.timedelta(hours=-4)))
-        secs = duration(mp3)
         items.append(f"""    <item>
       <title>{html.escape(episode_title(day))}</title>
       <description>{html.escape(summary)}</description>
@@ -182,10 +214,10 @@ def build_feed():
       <guid isPermaLink="false">memo-{mp3.stem}</guid>
       <pubDate>{email.utils.format_datetime(pub)}</pubDate>
       <itunes:duration>{secs // 60}:{secs % 60:02d}</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
+      <itunes:explicit>false</itunes:explicit>{transcript}
     </item>""")
     feed = f"""<?xml version="1.0" encoding="UTF-8"?>
-<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd">
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0">
   <channel>
     <title>{html.escape(CFG['title'])}</title>
     <link>{base}/</link>
@@ -211,6 +243,8 @@ def prune():
     eps = sorted(EPISODES.glob("*.mp3"), reverse=True) if EPISODES.exists() else []
     for old in eps[keep:]:
         old.unlink()
+        for side in (old.with_suffix(".vtt"), old.with_suffix(".txt")):
+            side.unlink(missing_ok=True)
         print(f"pruned {old.name}")
 
 
