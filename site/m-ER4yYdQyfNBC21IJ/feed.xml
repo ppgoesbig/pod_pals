@@ -11,6 +11,15 @@
     <itunes:block>Yes</itunes:block>
     <itunes:category text="News"/>
     <item>
+      <title>Morning Memo - Wed Oct 21</title>
+      <description>Morning, Ziad. Wednesday the twenty-first. Gym at seven, Godinger till five, an appointment at five-thirty.</description>
+      <enclosure url="https://ppgoesbig.github.io/pod_pals/m-ER4yYdQyfNBC21IJ/episodes/2026-10-21.mp3" length="3402441" type="audio/mpeg"/>
+      <guid isPermaLink="false">memo-2026-10-21</guid>
+      <pubDate>Wed, 21 Oct 2026 06:00:00 -0400</pubDate>
+      <itunes:duration>4:43</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+    </item>
+    <item>
       <title>Morning Memo - Tue Oct 20</title>
       <description>Good morning Ziad. It&#x27;s Tuesday, October twentieth.</description>
       <enclosure url="https://ppgoesbig.github.io/pod_pals/m-ER4yYdQyfNBC21IJ/episodes/2026-10-20.mp3" length="3102451" type="audio/mpeg"/>
