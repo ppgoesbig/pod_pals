@@ -115,15 +115,19 @@ def tts(text: str, model: str, voice: str):
             raise
 
 
-def render(text: str, model: str, voice: str, out: Path, limit: int):
-    """TTS each chunk, normalise to one format, join with short pauses, encode MP3."""
+def render(text: str, model: str, voice: str, out: Path, limit: int, direction: str = ""):
+    """TTS each chunk, normalise to one format, join with short pauses, encode MP3.
+
+    direction is an Eleven v4 style audio tag like "[relaxed, warm]". It goes at the
+    start of every chunk, because a tag only carries forward within one request.
+    """
     out.parent.mkdir(parents=True, exist_ok=True)
     with tempfile.TemporaryDirectory() as tmp:
         tmp = Path(tmp)
         wavs = []
         for i, piece in enumerate(chunks(text, limit)):
             raw = tmp / f"raw{i}"
-            data, fmt = tts(piece, model, voice)
+            data, fmt = tts(f"{direction} {piece}" if direction else piece, model, voice)
             raw.write_bytes(data)
             wav = tmp / f"c{i}.wav"
             src = ["-f", "s16le", "-ar", "24000", "-ac", "1"] if fmt == "pcm" else []
@@ -162,13 +166,18 @@ def _ts(t: float) -> str:
     return f"{ms // 3600000:02d}:{ms // 60000 % 60:02d}:{ms // 1000 % 60:02d}.{ms % 1000:03d}"
 
 
+def readable(md: str) -> str:
+    """Speakable text minus audio tags like [relaxed], for transcripts and summaries."""
+    return re.sub(r"[ \t]*\[[^\]\n]{1,40}\][ \t]*", " ", speakable(md)).replace("\n ", "\n").strip()
+
+
 def write_transcripts(script: Path, secs: float):
     """Write a WebVTT caption file and a plain-text transcript beside the episode.
 
     The TTS gives no word timings, so each sentence gets a slice of the episode's
     length in proportion to its characters. Close enough to follow along.
     """
-    text = speakable(script.read_text())
+    text = readable(script.read_text())
     sentences = [x.strip() for para in text.split("\n\n")
                  for x in re.split(r"(?<=[.!?])\s+", para) if x.strip()]
     total = sum(len(x) for x in sentences) or 1
@@ -199,7 +208,7 @@ def build_feed():
         secs = duration(mp3)
         transcript = ""
         if script.exists():
-            first = next((l for l in speakable(script.read_text()).splitlines() if l), "")
+            first = next((l for l in readable(script.read_text()).splitlines() if l), "")
             summary = first[:240]
             if secs:
                 write_transcripts(script, secs)
@@ -263,7 +272,8 @@ def cmd_episodes():
             continue
         text = speakable(script.read_text())
         print(f"rendering {script.name}: {len(text)} chars with {tts_cfg['model']}")
-        render(text, tts_cfg["model"], tts_cfg["voice"], out, tts_cfg["max_chunk_chars"])
+        render(text, tts_cfg["model"], tts_cfg["voice"], out, tts_cfg["max_chunk_chars"],
+               tts_cfg.get("direction", ""))
         print(f"  -> {out.name} ({duration(out)}s)")
         made += 1
     prune()
@@ -280,7 +290,8 @@ def cmd_samples():
         try:
             if not out.exists():
                 print(f"sampling {s['label']}")
-                render(sample_text, s["model"], s["voice"], out, CFG["tts"]["max_chunk_chars"])
+                render(sample_text, s["model"], s["voice"], out, CFG["tts"]["max_chunk_chars"],
+                       s.get("direction", ""))
             rows.append((s, name, None))
         except Exception as e:  # keep going so one bad model doesn't sink the page
             annotate(f"sample {s['label']} failed: {str(e)[:300]}")
@@ -290,7 +301,7 @@ def cmd_samples():
         body = (f'<audio controls preload="none" src="{name}"></audio>' if name
                 else f'<p class="err">Failed: {html.escape(err)}</p>')
         cards.append(f"""<section><h2>{html.escape(s['label'])}</h2>
-<p class="m">{html.escape(s['model'])} &middot; {html.escape(s['voice'])}</p>{body}</section>""")
+<p class="m">{html.escape(s['model'])} &middot; {html.escape(s['voice'])}{(' &middot; ' + html.escape(s['direction'])) if s.get('direction') else ''}</p>{body}</section>""")
     page = f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Voice Sampler</title><style>

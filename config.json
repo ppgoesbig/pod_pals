@@ -8,7 +8,8 @@
   "tts": {
     "model": "elevenlabs/eleven-v4",
     "voice": "george",
-    "max_chunk_chars": 3500
+    "max_chunk_chars": 3500,
+    "direction": ""
   },
   "samples": [
     {"label": "Qwen Audio 3.0 Plus (voice A)", "model": "qwen/qwen-audio-3.0-tts-plus", "voice": "longanlingxin"},
@@ -18,6 +19,8 @@
     {"label": "MAI-Voice-2.1 (Jasper)", "model": "microsoft/mai-voice-2.1", "voice": "en-US-Jasper:MAI-Voice-2.1"},
     {"label": "MAI-Voice-2.1 (Harper)", "model": "microsoft/mai-voice-2.1", "voice": "en-US-Harper:MAI-Voice-2.1"},
     {"label": "Eleven v4 (George)", "model": "elevenlabs/eleven-v4", "voice": "george"},
-    {"label": "Eleven v4 (Sarah)", "model": "elevenlabs/eleven-v4", "voice": "sarah"}
+    {"label": "Eleven v4 (Sarah)", "model": "elevenlabs/eleven-v4", "voice": "sarah"},
+    {"label": "Eleven v4 (George, relaxed)", "model": "elevenlabs/eleven-v4", "voice": "george", "direction": "[relaxed, warm, unhurried]"},
+    {"label": "Eleven v4 (George, easygoing friend)", "model": "elevenlabs/eleven-v4", "voice": "george", "direction": "[casual, easygoing, like talking to a friend on a walk]"}
   ]
 }
