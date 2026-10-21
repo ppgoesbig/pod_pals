@@ -6,8 +6,8 @@
   "feed_path": "m-ER4yYdQyfNBC21IJ",
   "keep_episodes": 30,
   "tts": {
-    "model": "qwen/qwen-audio-3.0-tts-plus",
-    "voice": "longanlingxin",
+    "model": "elevenlabs/eleven-v4",
+    "voice": "george",
     "max_chunk_chars": 3500
   },
   "samples": [

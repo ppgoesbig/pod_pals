@@ -42,9 +42,11 @@ def annotate(msg: str):
 
 def speakable(md: str) -> str:
     """Strip markdown so the voice doesn't read symbols aloud."""
+    md = re.sub(r"<!--.*?-->", "", md, flags=re.S)   # debug notes never get spoken
     out = []
     for line in md.splitlines():
-        line = re.sub(r"^\s*#+\s*", "", line)          # headings become plain lines
+        if re.match(r"^\s*#", line):                   # headings are for the file, not the ear
+            continue
         line = re.sub(r"^\s*[-*]\s+", "", line)        # bullets
         line = re.sub(r"\[([^\]]+)\]\([^)]+\)", r"\1", line)  # links
         line = re.sub(r"[*_`]", "", line)
