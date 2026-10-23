@@ -1,0 +1,196 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:00.945
+Morning, Ziad.
+
+00:00:00.945 --> 00:00:02.566
+Friday the twenty-third.
+
+00:00:02.566 --> 00:00:07.359
+Half day at work, then a long, social stretch that runs into the night.
+
+00:00:07.359 --> 00:00:09.790
+Something to chew on while you move.
+
+00:00:09.790 --> 00:00:13.301
+How long does it take Phobos to go once around Mars?
+
+00:00:13.301 --> 00:00:14.651
+Answer's at the end.
+
+00:00:14.651 --> 00:00:15.664
+Weather's easy.
+
+00:00:15.664 --> 00:00:21.403
+Sunny and dry, high around sixty, with a light north wind that won't bother the bike.
+
+00:00:21.403 --> 00:00:26.940
+It drops into the low forties tonight, so the ride home after drinks will be cold.
+
+00:00:26.940 --> 00:00:27.885
+Okay, the day.
+
+00:00:27.885 --> 00:00:33.962
+Gym at seven, straight sets again, so save the myo-reps for the raises and the rear delts.
+
+00:00:33.962 --> 00:00:37.203
+Then Godinger, but only a half day, nine to one.
+
+00:00:37.203 --> 00:00:40.646
+Lunch is at one-thirty, close to work in Ridgewood.
+
+00:00:40.646 --> 00:00:44.630
+Somewhere in the afternoon there's the lens rental handoff.
+
+00:00:44.630 --> 00:00:50.976
+The time still isn't locked, and lunch runs till two-thirty, so try to pin it for right after.
+
+00:00:50.976 --> 00:00:54.892
+Clean and test the lens first, and check the renter's I.D.
+
+00:00:54.892 --> 00:01:00.631
+At five it's climbing, then dinner and drinks with friends, probably till around ten.
+
+00:01:00.631 --> 00:01:01.577
+Alright, news.
+
+00:01:01.577 --> 00:01:11.029
+The big tech story this week is a pair of serious holes in PHP, the language that quietly runs a huge chunk of the web, including WordPress.
+
+00:01:11.029 --> 00:01:17.038
+Under the right conditions, an attacker could take over a server without ever logging in.
+
+00:01:17.038 --> 00:01:20.077
+Researchers found them with help from an A.I.
+
+00:01:20.077 --> 00:01:23.655
+model, after they'd sat there for more than a decade.
+
+00:01:23.655 --> 00:01:31.622
+When they went public Tuesday, Finland pulled its government websites offline and even parts of Wikipedia blinked out.
+
+00:01:31.622 --> 00:01:37.159
+A patch landed Wednesday afternoon, and security firms are already seeing attacks.
+
+00:01:37.159 --> 00:01:43.911
+If you've got a portfolio site on WordPress, or a host that runs it for you, make sure it's updated.
+
+00:01:43.911 --> 00:01:45.869
+Markets had a rough Thursday.
+
+00:01:45.869 --> 00:01:53.566
+The Nasdaq fell more than two and a half percent, its worst day since July, and the S&P dropped about one percent.
+
+00:01:53.566 --> 00:01:56.266
+Investors are nervous that building A.I.
+
+00:01:56.266 --> 00:02:02.005
+data centers on borrowed money has gotten expensive, and that the stocks ran too far.
+
+00:02:02.005 --> 00:02:12.808
+At the same time, oil jumped to its highest price in about five months, because nobody knows when the war with Iran will let energy shipping get back to normal.
+
+00:02:12.808 --> 00:02:17.670
+And one small one, since you picked this show's voice off a leaderboard.
+
+00:02:17.670 --> 00:02:25.434
+HeyGen has a new voice model called Voice Turbo that just took the top spot in that same Artificial Analysis arena.
+
+00:02:25.434 --> 00:02:30.701
+Knowing how tight those top spots are, call it worth a listen, not a new king.
+
+00:02:30.701 --> 00:02:38.803
+For the weekend, there's a cocktail bar on Willoughby Avenue called The Museum Bar, built like a natural history museum.
+
+00:02:38.803 --> 00:02:52.644
+You come in through a tiny gift shop bar with lighter drinks, walk through a hall of crystals and fossils, and end up in the main room, where the menu is split into permanent exhibits and special exhibits.
+
+00:02:52.644 --> 00:02:56.358
+It opened this summer, so it might've slipped past you.
+
+00:02:56.358 --> 00:03:02.097
+It's open Sunday from five, which makes it an easy, low-key night after a big Friday.
+
+00:03:02.097 --> 00:03:04.325
+Today's challenge is a photo one.
+
+00:03:04.325 --> 00:03:10.469
+At dinner tonight, take one picture of the table using only the light that's already there.
+
+00:03:10.469 --> 00:03:11.077
+No flash.
+
+00:03:11.077 --> 00:03:14.115
+A candle, a pendant lamp, whatever's closest.
+
+00:03:14.115 --> 00:03:20.124
+Shift your angle until the light comes across faces from the side instead of straight on.
+
+00:03:20.124 --> 00:03:22.082
+One frame you like is enough.
+
+00:03:22.082 --> 00:03:24.580
+Okay, something you've been learning.
+
+00:03:24.580 --> 00:03:28.226
+Remember when Gemini's voice only handed back raw PCM?
+
+00:03:28.226 --> 00:03:29.779
+Here's what that means.
+
+00:03:29.779 --> 00:03:32.682
+PCM is sound written down as plain numbers.
+
+00:03:32.682 --> 00:03:38.827
+A microphone's signal gets measured over and over, and each measurement becomes one number.
+
+00:03:38.827 --> 00:03:46.321
+For the memo's pipeline, that's twenty-four thousand measurements every second, each one sixteen bits, in mono.
+
+00:03:46.321 --> 00:03:48.954
+The catch is that raw PCM has no label.
+
+00:03:48.954 --> 00:03:55.774
+It's just a long stream of numbers, with nothing saying how fast to play them or how big each one is.
+
+00:03:55.774 --> 00:04:02.323
+That's why the render script has to spell it out, sixteen bit, twenty-four thousand, one channel.
+
+00:04:02.323 --> 00:04:08.197
+A WAV file is basically the same PCM with a tiny header on top that carries that label.
+
+00:04:08.197 --> 00:04:09.818
+MP3 is a different idea.
+
+00:04:09.818 --> 00:04:11.573
+It doesn't store the wave.
+
+00:04:11.573 --> 00:04:15.016
+It stores a recipe for something that sounds close.
+
+00:04:15.016 --> 00:04:20.823
+It breaks the sound into frequencies, then leans on a trick of hearing called masking.
+
+00:04:20.823 --> 00:04:26.900
+A loud sound hides quieter sounds near it in pitch, so the encoder just throws those away.
+
+00:04:26.900 --> 00:04:28.182
+The payoff is size.
+
+00:04:28.182 --> 00:04:32.504
+Raw, the memo runs about three hundred eighty kilobits a second.
+
+00:04:32.504 --> 00:04:34.597
+The MP3 goes out at ninety-six.
+
+00:04:34.597 --> 00:04:42.159
+So a five minute episode shrinks from around fourteen megabytes to under four and you can't hear the difference.
+
+00:04:42.159 --> 00:04:48.303
+So: gym at seven, work till one, lunch at one-thirty, lens handoff after, climbing at five.
+
+00:04:48.303 --> 00:04:54.312
+And the answer: Phobos laps Mars in about seven and a half hours, faster than Mars spins.
+
+00:04:54.312 --> 00:04:56.000
+Have a great climb, Ziad.

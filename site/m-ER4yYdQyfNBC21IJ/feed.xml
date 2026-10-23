@@ -11,6 +11,17 @@
     <itunes:block>Yes</itunes:block>
     <itunes:category text="News"/>
     <item>
+      <title>Morning Memo - Fri Oct 23</title>
+      <description>Morning, Ziad. Friday the twenty-third. Half day at work, then a long, social stretch that runs into the night.</description>
+      <enclosure url="https://ppgoesbig.github.io/pod_pals/m-ER4yYdQyfNBC21IJ/episodes/2026-10-23.mp3" length="3553220" type="audio/mpeg"/>
+      <guid isPermaLink="false">memo-2026-10-23</guid>
+      <pubDate>Fri, 23 Oct 2026 06:00:00 -0400</pubDate>
+      <itunes:duration>4:56</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <podcast:transcript url="https://ppgoesbig.github.io/pod_pals/m-ER4yYdQyfNBC21IJ/episodes/2026-10-23.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://ppgoesbig.github.io/pod_pals/m-ER4yYdQyfNBC21IJ/episodes/2026-10-23.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
       <title>Morning Memo - Thu Oct 22</title>
       <description>Morning, Ziad. Thursday the twenty-second. Easy weather, a full workday, and one tight handoff right at the end of it.</description>
       <enclosure url="https://ppgoesbig.github.io/pod_pals/m-ER4yYdQyfNBC21IJ/episodes/2026-10-22.mp3" length="3545697" type="audio/mpeg"/>

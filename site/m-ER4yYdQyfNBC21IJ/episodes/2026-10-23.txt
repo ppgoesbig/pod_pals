@@ -1,0 +1,41 @@
+Morning, Ziad. Friday the twenty-third. Half day at work, then a long, social stretch that runs into the night.
+
+Something to chew on while you move. How long does it take Phobos to go once around Mars? Answer's at the end.
+
+Weather's easy. Sunny and dry, high around sixty, with a light north wind that won't bother the bike. It drops into the low forties tonight, so the ride home after drinks will be cold.
+
+Okay, the day. Gym at seven, straight sets again, so save the myo-reps for the raises and the rear delts.
+
+Then Godinger, but only a half day, nine to one.
+
+Lunch is at one-thirty, close to work in Ridgewood.
+
+Somewhere in the afternoon there's the lens rental handoff. The time still isn't locked, and lunch runs till two-thirty, so try to pin it for right after. Clean and test the lens first, and check the renter's I.D.
+
+At five it's climbing, then dinner and drinks with friends, probably till around ten.
+
+Alright, news.
+
+The big tech story this week is a pair of serious holes in PHP, the language that quietly runs a huge chunk of the web, including WordPress. Under the right conditions, an attacker could take over a server without ever logging in. Researchers found them with help from an A.I. model, after they'd sat there for more than a decade. When they went public Tuesday, Finland pulled its government websites offline and even parts of Wikipedia blinked out. A patch landed Wednesday afternoon, and security firms are already seeing attacks. If you've got a portfolio site on WordPress, or a host that runs it for you, make sure it's updated.
+
+Markets had a rough Thursday. The Nasdaq fell more than two and a half percent, its worst day since July, and the S&P dropped about one percent. Investors are nervous that building A.I. data centers on borrowed money has gotten expensive, and that the stocks ran too far. At the same time, oil jumped to its highest price in about five months, because nobody knows when the war with Iran will let energy shipping get back to normal.
+
+And one small one, since you picked this show's voice off a leaderboard. HeyGen has a new voice model called Voice Turbo that just took the top spot in that same Artificial Analysis arena. Knowing how tight those top spots are, call it worth a listen, not a new king.
+
+For the weekend, there's a cocktail bar on Willoughby Avenue called The Museum Bar, built like a natural history museum. You come in through a tiny gift shop bar with lighter drinks, walk through a hall of crystals and fossils, and end up in the main room, where the menu is split into permanent exhibits and special exhibits. It opened this summer, so it might've slipped past you. It's open Sunday from five, which makes it an easy, low-key night after a big Friday.
+
+Today's challenge is a photo one. At dinner tonight, take one picture of the table using only the light that's already there. No flash. A candle, a pendant lamp, whatever's closest. Shift your angle until the light comes across faces from the side instead of straight on. One frame you like is enough.
+
+Okay, something you've been learning. Remember when Gemini's voice only handed back raw PCM? Here's what that means.
+
+PCM is sound written down as plain numbers. A microphone's signal gets measured over and over, and each measurement becomes one number. For the memo's pipeline, that's twenty-four thousand measurements every second, each one sixteen bits, in mono.
+
+The catch is that raw PCM has no label. It's just a long stream of numbers, with nothing saying how fast to play them or how big each one is. That's why the render script has to spell it out, sixteen bit, twenty-four thousand, one channel. A WAV file is basically the same PCM with a tiny header on top that carries that label.
+
+MP3 is a different idea. It doesn't store the wave. It stores a recipe for something that sounds close. It breaks the sound into frequencies, then leans on a trick of hearing called masking. A loud sound hides quieter sounds near it in pitch, so the encoder just throws those away.
+
+The payoff is size. Raw, the memo runs about three hundred eighty kilobits a second. The MP3 goes out at ninety-six. So a five minute episode shrinks from around fourteen megabytes to under four and you can't hear the difference.
+
+So: gym at seven, work till one, lunch at one-thirty, lens handoff after, climbing at five. And the answer: Phobos laps Mars in about seven and a half hours, faster than Mars spins.
+
+Have a great climb, Ziad.
