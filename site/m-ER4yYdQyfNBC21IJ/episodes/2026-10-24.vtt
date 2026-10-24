@@ -1,0 +1,220 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:00.947
+Morning, Ziad.
+
+00:00:00.947 --> 00:00:02.772
+Saturday the twenty-fourth.
+
+00:00:02.772 --> 00:00:05.815
+One hard run, and then the whole day's yours.
+
+00:00:05.815 --> 00:00:08.317
+Here's one to chew on while you move.
+
+00:00:08.317 --> 00:00:15.891
+On one of those Elo leaderboards, if two voices are a hundred points apart, how often should the higher one win?
+
+00:00:15.891 --> 00:00:17.243
+Answer's at the end.
+
+00:00:17.243 --> 00:00:18.393
+Weather's a gift.
+
+00:00:18.393 --> 00:00:26.575
+Dry all day, mid-forties for the run and up to the mid-sixties by afternoon, and Sunday's sunny and even a little warmer.
+
+00:00:26.575 --> 00:00:27.522
+Okay, the day.
+
+00:00:27.522 --> 00:00:31.579
+You're out at seven for intervals, about forty-five minutes.
+
+00:00:31.579 --> 00:00:39.490
+Ten minutes easy to warm up, then four hard efforts of four minutes each, with three minutes of easy jogging between.
+
+00:00:39.490 --> 00:00:42.195
+On the hard ones, push past one-seventy.
+
+00:00:42.195 --> 00:00:44.359
+Then eight minutes to cool down.
+
+00:00:44.359 --> 00:00:46.793
+After that, nothing on the calendar.
+
+00:00:46.793 --> 00:00:53.961
+The only thing on your radar is someone else's long class, one to seven, so they're tied up all afternoon.
+
+00:00:53.961 --> 00:01:00.047
+And early voting for the November third election opens today and runs through next Sunday.
+
+00:01:00.047 --> 00:01:03.496
+With a free weekend, it's an easy one to knock out.
+
+00:01:03.496 --> 00:01:04.442
+Alright, news.
+
+00:01:04.442 --> 00:01:08.905
+The City Council voted to end the horse carriages in Central Park.
+
+00:01:08.905 --> 00:01:15.938
+It's an industry that's been running for about a hundred and seventy years, and now it's on its way out.
+
+00:01:15.938 --> 00:01:17.426
+And one for your desk.
+
+00:01:17.426 --> 00:01:24.796
+Black Forest Labs, the people behind the Flux image models, put out a new open model called Flux three Klein.
+
+00:01:24.796 --> 00:01:26.757
+The interesting part is size.
+
+00:01:26.757 --> 00:01:33.993
+It runs on a graphics card with as little as eight gigs of memory, so a normal gaming laptop can handle it.
+
+00:01:33.993 --> 00:01:39.740
+And it's free for commercial use for anyone making under five million dollars a year.
+
+00:01:39.740 --> 00:01:49.613
+If you've ever wanted to mock up a set or a background idea for a product shot without paying per image, that's now something you can run at home.
+
+00:01:49.613 --> 00:01:51.168
+Okay, for next weekend.
+
+00:01:51.168 --> 00:01:59.418
+Two small galleries near you both close their current shows on Sunday, November first, so next weekend is the last chance.
+
+00:01:59.418 --> 00:02:06.045
+In Ridgewood, Marvin Gardens on Decatur Street has a show by Kalina Winters called Reflective Egg.
+
+00:02:06.045 --> 00:02:12.401
+Marvin Gardens is a tiny artist-run space, the kind of place you'd ride past without noticing.
+
+00:02:12.401 --> 00:02:21.395
+And on Willoughby Avenue in Bushwick, there's a building where two galleries share one floor, Transmitter and Tiger Strikes Asteroid.
+
+00:02:21.395 --> 00:02:29.577
+Transmitter has a solo show from Amy Rose Khoshbin, and Tiger Strikes Asteroid has a three-artist show called Absorbtion.
+
+00:02:29.577 --> 00:02:33.566
+Since they're side by side, you get two shows for one stop.
+
+00:02:33.566 --> 00:02:38.706
+Small spaces like these can keep short hours, so check before you ride over.
+
+00:02:38.706 --> 00:02:39.652
+Both are free.
+
+00:02:39.652 --> 00:02:47.429
+Put them together and it's a nice Saturday loop, Bushwick to Ridgewood and back, maybe with a coffee in the middle.
+
+00:02:47.429 --> 00:02:49.728
+Today's challenge is a social one.
+
+00:02:49.728 --> 00:02:54.461
+Have one conversation with a stranger that lasts longer than a minute.
+
+00:02:54.461 --> 00:02:56.625
+Not a thank you at the register.
+
+00:02:56.625 --> 00:02:58.113
+A real back and forth.
+
+00:02:58.113 --> 00:03:05.010
+The person next to you at the coffee bar, someone walking a dog you like, whoever's at the next table.
+
+00:03:05.010 --> 00:03:09.811
+Ask one question you actually want the answer to, then ask a follow-up.
+
+00:03:09.811 --> 00:03:13.598
+Weekends are perfect for this, because nobody's rushing.
+
+00:03:13.598 --> 00:03:16.100
+Okay, something you've been learning.
+
+00:03:16.100 --> 00:03:18.399
+Remember building the memo's feed?
+
+00:03:18.399 --> 00:03:21.915
+Here's what a podcast app is actually doing with it.
+
+00:03:21.915 --> 00:03:26.108
+A podcast feed is just one text file sitting at a web address.
+
+00:03:26.108 --> 00:03:28.677
+It's a list of episodes, newest first.
+
+00:03:28.677 --> 00:03:33.478
+Each episode has a title, a date, and two pieces that do the real work.
+
+00:03:33.478 --> 00:03:35.304
+The first is the enclosure.
+
+00:03:35.304 --> 00:03:39.496
+That's the link to the audio file, plus its size and its type.
+
+00:03:39.496 --> 00:03:40.578
+The name is old.
+
+00:03:40.578 --> 00:03:45.447
+It comes from email, where an attachment used to be called an enclosure.
+
+00:03:45.447 --> 00:03:49.234
+So every episode is basically a post with an attachment.
+
+00:03:49.234 --> 00:03:52.006
+The second is the G.U.I.D., a unique I.D.
+
+00:03:52.006 --> 00:03:53.156
+for that episode.
+
+00:03:53.156 --> 00:03:55.725
+This is how an app decides what's new.
+
+00:03:55.725 --> 00:03:58.092
+It doesn't compare titles or audio.
+
+00:03:58.092 --> 00:04:00.459
+It just asks, have I seen this I.D.
+
+00:04:00.459 --> 00:04:00.932
+before?
+
+00:04:00.932 --> 00:04:02.014
+If yes, skip it.
+
+00:04:02.014 --> 00:04:03.772
+If no, it's a new episode.
+
+00:04:03.772 --> 00:04:05.733
+That has a funny side effect.
+
+00:04:05.733 --> 00:04:12.901
+If you ever change an old episode's I.D., every app treats it as brand new, and listeners get a duplicate.
+
+00:04:12.901 --> 00:04:18.446
+And if you swap the audio but keep the I.D., a lot of apps never download the fix.
+
+00:04:18.446 --> 00:04:22.030
+As for when episodes show up, nobody pushes anything.
+
+00:04:22.030 --> 00:04:28.995
+Apps, or the big directories behind them, check the feed on their own schedule, often every hour or so.
+
+00:04:28.995 --> 00:04:32.443
+They usually ask, has this changed since last time?
+
+00:04:32.443 --> 00:04:36.230
+If not, the server says no, and nothing gets downloaded.
+
+00:04:36.230 --> 00:04:41.843
+That's why a new memo can take a little while to land on your phone after the push.
+
+00:04:41.843 --> 00:04:47.928
+So: intervals at seven, early voting's open, and two little galleries to hit next weekend.
+
+00:04:47.928 --> 00:04:51.512
+And the answer: about sixty-four percent of the time.
+
+00:04:51.512 --> 00:04:53.000
+Have a fast run, Ziad.
