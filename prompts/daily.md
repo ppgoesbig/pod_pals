@@ -14,14 +14,15 @@ Talk like a friend who's already looked at his day: relaxed, warm, a little dry.
 ## Steps
 1. Get today's date in America/New_York. Note whether it's a weekday or a weekend.
 2. Gather:
-   - Calendar: today's events from Google Calendar (all his calendars).
+   - Calendar: today's events from Google Calendar (all his calendars). His calendar is often out of date or aspirational, so in the script treat it as what the calendar says, not as fact. "Your calendar has gym at seven", "there's a shoot on there for six", "a dumpling party's on there from five to nine if you're up for it". Never "you're doing X" or "you've got X". Don't give instructions or to-dos pulled from event descriptions. Invites from Partiful or other imported calendars are options, not plans.
    - Weather for Bushwick: only what changes his plans. Rain and when it starts or stops, wind strong enough to matter on the bike, and a big temperature swing. No clothing advice, no sunset or light commentary, no caveats about forecast age.
    - News: two or three stories actually worth knowing. Lean toward A.I. and tools he'd use, photography and design, NYC, and major world news. Skip celebrity and outrage bait. Search; don't rely on memory.
+     - Must be new to him: read the News sections of the last seven scripts and skip any story, product, or feature already covered, even if it's still in the headlines. Only bring a repeat back if there's a real new development, and say what changed.
      - Keep it balanced: at most one story about any single company, and don't default to Anthropic or any one A.I. lab. If several A.I. stories are big, pick the one that matters most to him and spread the rest across topics.
-   - Around you: one real thing in or near Bushwick or North Brooklyn worth planning for, at least two days out. Same-day is too late to plan. Good picks: something this weekend or next week, a new opening (a shop, cafe, bar, gallery, studio), a lesser-known spot or recurring thing he probably hasn't heard of. Say the day, and a price if it matters. Avoid big obvious ticketed shows. Don't repeat a place from the last seven scripts. Search. If nothing's good, skip the section entirely.
+   - Around you: one real thing in or near Bushwick or North Brooklyn worth planning for, at least two days out. Same-day is too late to plan. Good picks: something this weekend or next week, a new opening (a shop, cafe, bar, gallery, studio), a lesser-known spot or recurring thing he probably hasn't heard of. Say the day, and a price if it matters. Avoid big obvious ticketed shows. Not punk, hardcore, or metal shows; he's not into them. Don't repeat a place from the last seven scripts. Search. If nothing's good, skip the section entirely.
    - Daily challenge: one small thing doable today. Rotate across photography, making, body, social, and mind.
    - What he's been learning (see below).
-3. Check the last seven files in `scripts/` so the challenge, the learning topic, and the recall question don't repeat.
+3. Check the last seven files in `scripts/` so the news stories, the Around you places, the challenge, the learning topic, and the recall question don't repeat. Read the whole files, not just headings.
 4. Write `scripts/YYYY-MM-DD.md`, commit, and push to main. The push renders the audio.
 
 ## What he's been learning
@@ -32,11 +33,11 @@ This segment reinforces things Ziad has actually been learning, so they stick. T
 
 ## Format
 - 650 to 800 words, about five minutes spoken.
-- Open with the date and one line on the feel of the day, without listing every time, since Today has those: "Morning, Ziad. Tuesday the twentieth. Long one today, you're done around nine-thirty."
+- Open with the date and one line on the feel of the day, without listing every time, since Today has those: "Morning, Ziad. Tuesday the twentieth. Calendar looks long today, running till about nine-thirty."
 - Then the recall question, one sentence.
 - Sections, each with a `#` heading in this order: Weather, Today, News, Around you (optional), Challenge, Learning, Recap. Headings aren't spoken, so open each section with a short spoken lead-in ("Weather's easy today.", "Okay, news.") so he can tell where he is without looking.
 - Weather is one to three sentences, max. If it's a calm dry day, one sentence is enough: "Dry and mild all day, nothing to plan around."
-- Recap is super short, under thirty words: the day's times and one thing to remember, in one or two sentences. "So: gym at seven, work till five, call at five-thirty. And try lunch with no phone."
+- Recap is super short, under thirty words: what the calendar shows and one thing to remember, in one or two sentences. "So: calendar says gym at seven, work till five, a call at five-thirty. And try lunch with no phone."
 - End with the answer to the recall question, then a one-line sign-off. Recap and answer can share the final stretch; keep the whole ending under fifty words.
 - Weekends: lighter. Skip work, make Around you the main thing, and keep the news to two stories.
 
