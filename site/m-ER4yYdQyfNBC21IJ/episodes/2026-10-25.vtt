@@ -1,0 +1,190 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:00.931
+Morning, Ziad.
+
+00:00:00.931 --> 00:00:02.527
+Sunday the twenty-fifth.
+
+00:00:02.527 --> 00:00:07.646
+An easy one, with a civic errand up front and a dinner party to close it out.
+
+00:00:07.646 --> 00:00:10.106
+Here's one to chew on while you move.
+
+00:00:10.106 --> 00:00:16.689
+With loudness normalization, what's the problem with the old way, just turning up the loudest peak?
+
+00:00:16.689 --> 00:00:18.018
+Answer's at the end.
+
+00:00:18.018 --> 00:00:19.548
+Weather's on your side.
+
+00:00:19.548 --> 00:00:26.330
+Sunny and dry all day, cool this morning and up to the mid-sixties by afternoon, with barely any wind.
+
+00:00:26.330 --> 00:00:27.260
+Okay, the day.
+
+00:00:27.260 --> 00:00:28.524
+Early voting first.
+
+00:00:28.524 --> 00:00:31.383
+You're at your polling site at ten to nine.
+
+00:00:31.383 --> 00:00:34.308
+Then nothing on your calendar until evening.
+
+00:00:34.308 --> 00:00:40.758
+On your radar, someone else is in a long class from one to seven, so the afternoon's yours alone.
+
+00:00:40.758 --> 00:00:43.816
+And you've got a dinner party at seven-thirty.
+
+00:00:43.816 --> 00:00:44.747
+Alright, news.
+
+00:00:44.747 --> 00:00:45.744
+Just two today.
+
+00:00:45.744 --> 00:00:49.800
+Canva put out its first image model of its own, called Craft.
+
+00:00:49.800 --> 00:00:51.928
+It's built a little differently.
+
+00:00:51.928 --> 00:00:59.441
+It plans the layout first, where things sit, how big they are, what the text says, and only then draws the image.
+
+00:00:59.441 --> 00:01:07.686
+It was trained on designed stuff like posters and menus instead of photos, so it's aimed at readable text and clean layouts.
+
+00:01:07.686 --> 00:01:18.789
+The part you'd care about is that the result can be split into editable layers, so you can grab the headline or move an object instead of regenerating the whole thing.
+
+00:01:18.789 --> 00:01:22.313
+It's in Canva's Dream Lab tab for everyone right now.
+
+00:01:22.313 --> 00:01:28.496
+And in France, another big Saturday of protests, with another march planned for next weekend.
+
+00:01:28.496 --> 00:01:36.675
+Official numbers put it around four hundred thousand people across the country, with unions saying it was closer to double.
+
+00:01:36.675 --> 00:01:49.640
+It started back in September with high school students blockading schools over crumbling buildings and teacher shortages, and it's grown into a wider fight over cost of living and the government.
+
+00:01:49.640 --> 00:01:51.901
+Okay, here's one for next weekend.
+
+00:01:51.901 --> 00:01:58.749
+Saturday is Halloween, and there are two free, low-key things close to home that aren't the big parade.
+
+00:01:58.749 --> 00:02:09.786
+Right on the edge of Bushwick, on Moore Street near the Moore Street Market, a community health group called Nos Cuidamos is hosting a Día de los Muertos celebration.
+
+00:02:09.786 --> 00:02:12.512
+It runs from two to seven, and it's free.
+
+00:02:12.512 --> 00:02:17.765
+It's the kind of thing that's more ofrenda and neighborhood than costume party.
+
+00:02:17.765 --> 00:02:21.421
+If you bring a camera, ask before you shoot the altars.
+
+00:02:21.421 --> 00:02:28.336
+Then later, over in Greenpoint, there's a haunted garden party in a community garden on Franklin Street.
+
+00:02:28.336 --> 00:02:32.991
+That's five to eight-thirty, also free, all ages, costumes encouraged.
+
+00:02:32.991 --> 00:02:39.506
+Easy loop: afternoon at the Día de los Muertos, then a slow ride up to Greenpoint as it gets dark.
+
+00:02:39.506 --> 00:02:41.767
+Today's challenge is a making one.
+
+00:02:41.767 --> 00:02:44.560
+Make something to bring to dinner tonight.
+
+00:02:44.560 --> 00:02:46.887
+Not a bottle from the corner store.
+
+00:02:46.887 --> 00:02:49.347
+Quick pickled red onions are perfect.
+
+00:02:49.347 --> 00:02:57.458
+Slice one onion thin, pack it in a jar, and pour over hot vinegar and water with a spoon of sugar and a big pinch of salt.
+
+00:02:57.458 --> 00:03:01.714
+Thirty minutes on the counter and they're bright pink and ready.
+
+00:03:01.714 --> 00:03:07.099
+Showing up with a jar of something you made always lands better than you'd think.
+
+00:03:07.099 --> 00:03:09.559
+Okay, something you've been learning.
+
+00:03:09.559 --> 00:03:15.543
+Remember wiring up the memo, where a push makes the audio and updates the feed on its own?
+
+00:03:15.543 --> 00:03:18.668
+Here's what's actually happening when you push.
+
+00:03:18.668 --> 00:03:26.979
+GitHub Actions is a set of instructions that lives in the repo, in a small file that says, when this happens, do these steps.
+
+00:03:26.979 --> 00:03:28.708
+The "when" is the trigger.
+
+00:03:28.708 --> 00:03:31.634
+For the memo, the trigger is a push to main.
+
+00:03:31.634 --> 00:03:36.487
+When that push lands, GitHub spins up a fresh computer just for this job.
+
+00:03:36.487 --> 00:03:37.219
+It's blank.
+
+00:03:37.219 --> 00:03:42.338
+It clones the repo, installs whatever the steps need, and runs them in order.
+
+00:03:42.338 --> 00:03:49.785
+For the memo, that means reading the script, sending it to the voice, and turning the result into an audio file.
+
+00:03:49.785 --> 00:03:52.179
+Then that computer gets thrown away.
+
+00:03:52.179 --> 00:04:01.354
+Nothing on it survives, which is why every run starts from scratch and why anything you want to keep has to be saved somewhere on purpose.
+
+00:04:01.354 --> 00:04:03.216
+That's where Pages comes in.
+
+00:04:03.216 --> 00:04:05.210
+Pages is plain static hosting.
+
+00:04:05.210 --> 00:04:07.870
+It doesn't run code when someone visits.
+
+00:04:07.870 --> 00:04:13.189
+It just hands out files, like the audio and the feed, exactly as they were left.
+
+00:04:13.189 --> 00:04:14.718
+So the split is simple.
+
+00:04:14.718 --> 00:04:17.444
+Actions does the work once, at push time.
+
+00:04:17.444 --> 00:04:21.833
+Pages just serves the finished files, all day, to anyone who asks.
+
+00:04:21.833 --> 00:04:26.886
+So: vote at ten to nine, dinner party at seven-thirty, and bring the onions.
+
+00:04:26.886 --> 00:04:32.670
+The answer: one cough or loud plosive ends up setting the volume for the whole episode.
+
+00:04:32.670 --> 00:04:34.000
+Enjoy the sun, Ziad.

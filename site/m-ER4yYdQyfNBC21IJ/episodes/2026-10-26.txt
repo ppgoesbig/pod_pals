@@ -1,0 +1,41 @@
+Morning, Ziad. Monday the twenty-sixth. Full one today, with a shoot after work and a party waiting at the end if you've got the legs for it.
+
+Something to chew on while you move. Raw PCM is just a long stream of numbers, so what's the one thing a WAV file adds on top? Answer's at the end.
+
+Weather's a gift today. Sunny, dry, and up into the low seventies by afternoon, which is warm for late October, with only a light breeze for the ride. Tomorrow drops back to the low sixties, so enjoy this one.
+
+Okay, the day. Gym at seven, then Godinger from nine to five.
+
+Somewhere late morning, a lens rental is coming back to you. The exact time still isn't set. When it shows up, check it against the pickup checklist before it leaves your hands, since the damage cover depends on that.
+
+After work you've got a portrait shoot at six, wrapping around seven.
+
+And there's a dumpling party running from five to nine. It overlaps the shoot, but you can still catch the last stretch after. Grab something small before the shoot so you're not starving through it.
+
+Alright, news.
+
+Lightroom's phone app can now open closed eyes. When it spots someone blinking in a portrait or a group shot, a button pops up, and one tap paints in open eyes with generative A.I. You can feed it other photos of the same person so the eyes actually look like theirs. Some photographers are annoyed, partly at the feature and partly because the app store listing now calls Lightroom an A.I. photo editor. For a group shot where one person always blinks, though, you can see the appeal.
+
+Sticking with gear for a second. Sigma started a new line of small, vintage-style lenses that go for character over sharpness. The first one's a full-frame fifty millimeter at f one point four. It's a funny turn for a company that spent the last decade chasing the sharpest glass it could make.
+
+And tomorrow, Israel votes. It's the first election since the Gaza war, and it's a real test for Netanyahu. His main challenger is Gadi Eisenkot, a former army chief. The final polls point to a stalemate, with neither side reaching the sixty-one seats you need to govern. If that holds, it means weeks of coalition bargaining, or possibly another election.
+
+Here's one for next weekend. On Saturday the seventh, Gold Sounds on Wyckoff has a two in the afternoon show, four loud punk and hardcore bands for about fifteen bucks. Afternoon shows are an underrated move. You get the full sweaty set, you're back outside before dark, and the whole evening's still yours.
+
+Today's challenge is for your head. Pick one task at work and give it twenty-five minutes with nothing else. No switching tabs, no checking messages, no quick look at something else. If a thought pulls at you, let it wait till the timer's done. Then notice how much got done compared to a normal half hour. Most people are surprised how rarely they do just one thing.
+
+Okay, something you've been learning. Remember setting up the memo's feed on a private path? Here's how that kind of lock works, and where it stops working.
+
+An unguessable URL is a link with a long random string in it. There's no password. The link itself is the key. Whoever has it gets in, and whoever doesn't can't find it.
+
+The guessing part is solid. A random string of thirty-two characters has more possible values than there are grains of sand on Earth, many times over. Nobody's stumbling onto it by trying combinations.
+
+The weak spot is that links travel. They get pasted in a chat, and the chat app fetches a preview. They sit in browser history and in server logs. Podcast apps often sync your feeds to their own servers. And if the link is ever written somewhere public, it's not a secret anymore. That's the whole risk. Not that someone guesses it, but that it leaks.
+
+The other limit is that you can't take the key back from one person. If a link leaks, the only fix is moving to a new random path, and then everyone who should have it needs the new one.
+
+So it's a good fit for stuff that'd be mildly awkward to have out there, like a daily memo. It's not the right lock for anything you'd really mind someone reading.
+
+So: gym at seven, Godinger till five, check that lens when it comes back, shoot at six, dumplings after. The answer: a tiny header saying how fast to play the numbers and how big each one is.
+
+Have a good Monday, Ziad.

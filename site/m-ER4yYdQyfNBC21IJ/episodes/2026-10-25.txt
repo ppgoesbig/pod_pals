@@ -1,0 +1,39 @@
+Morning, Ziad. Sunday the twenty-fifth. An easy one, with a civic errand up front and a dinner party to close it out.
+
+Here's one to chew on while you move. With loudness normalization, what's the problem with the old way, just turning up the loudest peak? Answer's at the end.
+
+Weather's on your side. Sunny and dry all day, cool this morning and up to the mid-sixties by afternoon, with barely any wind.
+
+Okay, the day. Early voting first. You're at your polling site at ten to nine.
+
+Then nothing on your calendar until evening. On your radar, someone else is in a long class from one to seven, so the afternoon's yours alone.
+
+And you've got a dinner party at seven-thirty.
+
+Alright, news. Just two today.
+
+Canva put out its first image model of its own, called Craft. It's built a little differently. It plans the layout first, where things sit, how big they are, what the text says, and only then draws the image. It was trained on designed stuff like posters and menus instead of photos, so it's aimed at readable text and clean layouts. The part you'd care about is that the result can be split into editable layers, so you can grab the headline or move an object instead of regenerating the whole thing. It's in Canva's Dream Lab tab for everyone right now.
+
+And in France, another big Saturday of protests, with another march planned for next weekend. Official numbers put it around four hundred thousand people across the country, with unions saying it was closer to double. It started back in September with high school students blockading schools over crumbling buildings and teacher shortages, and it's grown into a wider fight over cost of living and the government.
+
+Okay, here's one for next weekend. Saturday is Halloween, and there are two free, low-key things close to home that aren't the big parade.
+
+Right on the edge of Bushwick, on Moore Street near the Moore Street Market, a community health group called Nos Cuidamos is hosting a Día de los Muertos celebration. It runs from two to seven, and it's free. It's the kind of thing that's more ofrenda and neighborhood than costume party. If you bring a camera, ask before you shoot the altars.
+
+Then later, over in Greenpoint, there's a haunted garden party in a community garden on Franklin Street. That's five to eight-thirty, also free, all ages, costumes encouraged.
+
+Easy loop: afternoon at the Día de los Muertos, then a slow ride up to Greenpoint as it gets dark.
+
+Today's challenge is a making one. Make something to bring to dinner tonight. Not a bottle from the corner store. Quick pickled red onions are perfect. Slice one onion thin, pack it in a jar, and pour over hot vinegar and water with a spoon of sugar and a big pinch of salt. Thirty minutes on the counter and they're bright pink and ready. Showing up with a jar of something you made always lands better than you'd think.
+
+Okay, something you've been learning. Remember wiring up the memo, where a push makes the audio and updates the feed on its own? Here's what's actually happening when you push.
+
+GitHub Actions is a set of instructions that lives in the repo, in a small file that says, when this happens, do these steps. The "when" is the trigger. For the memo, the trigger is a push to main.
+
+When that push lands, GitHub spins up a fresh computer just for this job. It's blank. It clones the repo, installs whatever the steps need, and runs them in order. For the memo, that means reading the script, sending it to the voice, and turning the result into an audio file. Then that computer gets thrown away. Nothing on it survives, which is why every run starts from scratch and why anything you want to keep has to be saved somewhere on purpose.
+
+That's where Pages comes in. Pages is plain static hosting. It doesn't run code when someone visits. It just hands out files, like the audio and the feed, exactly as they were left. So the split is simple. Actions does the work once, at push time. Pages just serves the finished files, all day, to anyone who asks.
+
+So: vote at ten to nine, dinner party at seven-thirty, and bring the onions. The answer: one cough or loud plosive ends up setting the volume for the whole episode.
+
+Enjoy the sun, Ziad.
