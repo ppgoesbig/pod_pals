@@ -11,6 +11,28 @@
     <itunes:block>Yes</itunes:block>
     <itunes:category text="News"/>
     <item>
+      <title>Morning Memo - Wed Oct 28</title>
+      <description>Morning, Ziad. Wednesday the twenty-eighth. Calendar&#x27;s packed in the morning, then it settles into a normal workday with one handoff after.</description>
+      <enclosure url="https://ppgoesbig.github.io/pod_pals/m-ER4yYdQyfNBC21IJ/episodes/2026-10-28.mp3" length="3457298" type="audio/mpeg"/>
+      <guid isPermaLink="false">memo-2026-10-28</guid>
+      <pubDate>Wed, 28 Oct 2026 06:00:00 -0400</pubDate>
+      <itunes:duration>4:48</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <podcast:transcript url="https://ppgoesbig.github.io/pod_pals/m-ER4yYdQyfNBC21IJ/episodes/2026-10-28.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://ppgoesbig.github.io/pod_pals/m-ER4yYdQyfNBC21IJ/episodes/2026-10-28.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
+      <title>Morning Memo - Tue Oct 27</title>
+      <description>Morning, Ziad. Tuesday the twenty-seventh. Calendar&#x27;s got a long one, starting with a run and ending with a class around nine-thirty.</description>
+      <enclosure url="https://ppgoesbig.github.io/pod_pals/m-ER4yYdQyfNBC21IJ/episodes/2026-10-27.mp3" length="3088658" type="audio/mpeg"/>
+      <guid isPermaLink="false">memo-2026-10-27</guid>
+      <pubDate>Tue, 27 Oct 2026 06:00:00 -0400</pubDate>
+      <itunes:duration>4:17</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <podcast:transcript url="https://ppgoesbig.github.io/pod_pals/m-ER4yYdQyfNBC21IJ/episodes/2026-10-27.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://ppgoesbig.github.io/pod_pals/m-ER4yYdQyfNBC21IJ/episodes/2026-10-27.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
       <title>Morning Memo - Mon Oct 26</title>
       <description>Morning, Ziad. Monday the twenty-sixth. Full one today, with a shoot after work and a party waiting at the end if you&#x27;ve got the legs for it.</description>
       <enclosure url="https://ppgoesbig.github.io/pod_pals/m-ER4yYdQyfNBC21IJ/episodes/2026-10-26.mp3" length="3393978" type="audio/mpeg"/>

@@ -1,0 +1,41 @@
+Morning, Ziad. Wednesday the twenty-eighth. Calendar's packed in the morning, then it settles into a normal workday with one handoff after.
+
+Here's one to chew on while you move. When the memo's GitHub Action finishes, what happens to the computer it ran on? Answer's at the end.
+
+Weather's nothing to plan around. Dry, low sixties, a light north breeze, and a few clouds rolling in this afternoon. Tomorrow warms up toward seventy.
+
+Okay, the day. Calendar has the gym at seven, straight sets again.
+
+Right after, there's maker space on there from eight to quarter to nine, so that's a quick turnaround.
+
+Then Godinger, nine to five.
+
+And there's a lens rental pickup on there at five-thirty, though the exact time still isn't locked. After that, the evening's open.
+
+Alright, news.
+
+Israel's election came back a deadlock. Exit polls put Netanyahu's bloc at about fifty-one seats, ten short of a majority. The main opposition bloc, led by the former army chief Gadi Eisenkot, landed at about the same. Arab parties are projected around eighteen seats, up from last time. That's the stalemate the polls predicted. Netanyahu still says his side won, and that he'll build a right-wing government. Eisenkot told him to accept defeat and step down. So expect weeks of coalition bargaining, and maybe even another election.
+
+One for the image side of things. With the midterms on Tuesday, ChatGPT is pulling back on realistic pictures of politicians. Testers found that if you ask for a photo-style image tied to the election, you now get something illustrated or cartoonish instead. It's a small move, but it shows where the lines are getting drawn. Real-looking people in real political moments is the thing these companies are most nervous about right now.
+
+And a nice one for film people. Fujifilm says it's putting about nineteen million dollars into its instant film factory, aiming for about twenty percent more Instax output. It's a pretty clear sign the company thinks instant film isn't a fad.
+
+Here's one for Sunday. There's a basement gallery on Bogart Street called Incubator Studio Gallery, tucked on the lower level of one of those big studio buildings. It opens a group show called Paint and Plaster on Sunday, November first, with a reception from one to five. It's a four-artist group show, and it runs through the end of November. Openings are the easy way in. The artists are usually there, the room's full, and nobody minds if you just wander and ask questions. It's a short ride from home, so it fits on a slow Sunday afternoon.
+
+Today's challenge is a photo one. Make one picture where the subject is a shadow. Not a person with a shadow, just the shadow itself. A bike rack on the sidewalk, a railing on a stairwell, a fence across a wall. The morning sun is low and sharp right now, so the shapes come out long and clean. One frame you like is enough.
+
+Okay, something new today, from making. It's about why 3D prints break where they do.
+
+A printer builds a part one thin layer at a time. Inside a single layer, the plastic is laid down as one continuous bead, so it's strong along that line. But each new layer only bonds to the one below while it's still hot. That seam between layers is never quite as solid as the plastic itself.
+
+So a printed part has a grain, a little like wood. Pull along the layers and it holds up. Pull them apart, and it can snap at a fraction of the load. Depending on the plastic and the settings, the weak direction can be half as strong or worse.
+
+That means the way you lay a part on the bed matters as much as the design. Picture a small hook. Print it standing up, and the hanging weight pries the layers apart right at the bend. That's exactly where it cracks. Lay it flat on its side, and the layers run around the curve, so the load follows the grain instead.
+
+A few things help the layers bond better. Running the nozzle a bit hotter, slowing down, and cutting back on the cooling fan for the parts that need strength. Thicker walls usually help more than adding infill, too.
+
+So before you hit print on anything that'll carry a load, picture how it'll get pulled. Then turn it so the layers aren't the thing holding on.
+
+So: calendar says gym at seven, maker space at eight, Godinger till five, lens pickup around five-thirty. And shoot one shadow. The answer: it gets thrown away, so nothing survives unless it's saved on purpose.
+
+Have a good lift, Ziad.

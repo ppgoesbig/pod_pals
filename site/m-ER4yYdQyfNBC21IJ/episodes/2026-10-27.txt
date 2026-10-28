@@ -1,0 +1,43 @@
+Morning, Ziad. Tuesday the twenty-seventh. Calendar's got a long one, starting with a run and ending with a class around nine-thirty.
+
+Here's one to chew on while you move. When a podcast app checks the feed, how does it decide an episode is new? Answer's at the end.
+
+Weather's easy. Mostly sunny, around sixty, barely any wind, and dry into the night.
+
+Okay, the day. Calendar has an easy zone two run at seven, thirty minutes.
+
+Then Godinger, nine to five.
+
+There's an appointment on there at four-thirty, which sits right inside the workday, so that one might need a little shuffling.
+
+Another appointment's on there at six.
+
+And the calendar closes with a slow class at eight-thirty, wrapping at nine-thirty. Between six and eight-thirty there's a real gap, so that's your window to eat.
+
+Alright, news.
+
+Just Eat, the British food delivery app, tried filling in missing menu photos with A.I. It went badly. The model read the menus way too literally. A jacket potato came out as a winter coat covered in potatoes. A tiger prawn dish had actual tiger cubs swimming in sauce. And a bacon and egg soda bread showed up as a glass of cola with bacon floating in it. The company apologized and paused the rollout, but it says it's still working on the tool. For anyone who shoots product for a living, it's a decent reminder of what a person with a camera actually catches.
+
+OpenAI says its models produced new results in math, computer science, and physics, including work on a couple of famous open problems. That's a big claim, and it hasn't been checked by outside experts yet. So treat it as a maybe until other mathematicians go through it.
+
+And Israel is voting today. Turnout this morning was running at its highest since nineteen eighty-one. Polls close around four this afternoon our time, and exit polls come right after, so by tonight you'll know whether it's the stalemate the polls predicted.
+
+Here's one for the weekend after next. On Saturday the seventh, Elsewhere has a jazz night with Kamasi Washington and the singer Ami Taf Ra. It's twenty-five dollars and starts at seven. Kamasi's the big name, but it's a good excuse to hear someone you probably don't know yet, and it's a short ride from home.
+
+Today's challenge is for your body. On the run this morning, breathe only through your nose for the first ten minutes. If you can't keep it up, that's your signal you're going too fast, so slow down until you can. It's a built-in speed limit for an easy day, no watch required.
+
+Okay, something new today, from lighting. It's called the inverse square law, and it explains a lot of what you already do by feel.
+
+Light spreads out as it travels. So when you double the distance between a light and your subject, the light doesn't drop by half. It drops to a quarter. Triple the distance, and you get a ninth.
+
+That's why moving a light just a little can change your exposure a lot when it's close. Going from one foot to two feet costs you two full stops. But going from ten feet to eleven barely registers.
+
+Here's the useful part. Falloff matters too, not just brightness. With a light very close, the front of a product can be bright while the back goes dark fast, because the back is relatively much farther away. Pull the light way back, turn the power up, and the whole object lights more evenly, front to back.
+
+So it's a choice you can make on purpose. Close light gives you drama and a fast fade into shadow. Far light gives you evenness. One catch. A light that's closer also looks bigger to the subject, so it gets softer too. Pulling it back buys evenness but makes it a little harder.
+
+Next time a piece of silver looks bright on one end and muddy on the other, try backing the light off before you add a second one.
+
+So: calendar says run at seven, Godinger till five, appointments at four-thirty and six, class at eight-thirty. And the answer: it checks the episode's G.U.I.D., a unique I.D.
+
+Have an easy run, Ziad.
