@@ -1,0 +1,190 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:00.942
+Morning, Ziad.
+
+00:00:00.942 --> 00:00:02.354
+Friday the thirtieth.
+
+00:00:02.354 --> 00:00:10.088
+Calendar's front-loaded, done with work by early afternoon, and then there's a late movie on there to close it out.
+
+00:00:10.088 --> 00:00:12.577
+Here's one to chew on while you move.
+
+00:00:12.577 --> 00:00:18.765
+If you double the distance between a light and your subject, how much of that light is left?
+
+00:00:18.765 --> 00:00:20.110
+Answer's at the end.
+
+00:00:20.110 --> 00:00:21.724
+Weather's mostly a gift.
+
+00:00:21.724 --> 00:00:30.736
+Sunny and dry, up near seventy, but the northwest wind gusts into the mid-twenties this afternoon, so expect some shoving on the bike.
+
+00:00:30.736 --> 00:00:32.754
+Tonight drops to around fifty.
+
+00:00:32.754 --> 00:00:33.696
+Okay, the day.
+
+00:00:33.696 --> 00:00:37.126
+Calendar has the gym at seven, straight sets again.
+
+00:00:37.126 --> 00:00:42.910
+Then maker space on there from eight to quarter to nine, so that's a tight turnaround.
+
+00:00:42.910 --> 00:00:45.667
+Godinger is only a half day, nine to one.
+
+00:00:45.667 --> 00:00:47.819
+After that, nothing until night.
+
+00:00:47.819 --> 00:00:54.881
+There's a movie with friends on there, downtown at the Alamo, doors at eight-thirty and the show at nine.
+
+00:00:54.881 --> 00:00:58.581
+So the whole afternoon's open, and it'll be a late one.
+
+00:00:58.581 --> 00:00:59.522
+Alright, news.
+
+00:00:59.522 --> 00:01:00.935
+One from your corner.
+
+00:01:00.935 --> 00:01:06.248
+ElevenLabs put out a new version of its sound effects model, SFX version three.
+
+00:01:06.248 --> 00:01:09.880
+You type what you want to hear and it makes the sound.
+
+00:01:09.880 --> 00:01:11.696
+The upgrade is in layering.
+
+00:01:11.696 --> 00:01:22.255
+It's better at stacking several sounds into one clip, like rain on a window with traffic underneath and a door closing, instead of making them one at a time.
+
+00:01:22.255 --> 00:01:29.115
+If you ever want a little bed of sound under a product video, that's the kind of thing it's built for.
+
+00:01:29.115 --> 00:01:31.604
+Further away, but it hits gas prices.
+
+00:01:31.604 --> 00:01:40.011
+Iranian officials say three oil tankers caught fire after hitting sea mines while trying to get through the Strait of Hormuz.
+
+00:01:40.011 --> 00:01:44.853
+That's the narrow channel a big chunk of the world's oil passes through.
+
+00:01:44.853 --> 00:01:51.108
+Iran's foreign minister says he's talking with mediators about a seven-day plan to reopen it.
+
+00:01:51.108 --> 00:01:54.807
+Until that happens, expect energy prices to stay jumpy.
+
+00:01:54.807 --> 00:01:56.354
+And one closer to home.
+
+00:01:56.354 --> 00:01:59.851
+New York's minimum wage won't go up in the new year.
+
+00:01:59.851 --> 00:02:07.048
+A rule from twenty twenty-three freezes it in any year private sector jobs shrink, and this year qualified.
+
+00:02:07.048 --> 00:02:12.832
+The governor says she wants to revisit it next year, but for now, no raise in January.
+
+00:02:12.832 --> 00:02:15.119
+Today's challenge is a making one.
+
+00:02:15.119 --> 00:02:20.499
+With the afternoon free, fix one small broken thing you've been stepping around.
+
+00:02:20.499 --> 00:02:25.611
+A wobbly chair, a drawer that sticks, a loose handle, a light that flickers.
+
+00:02:25.611 --> 00:02:28.234
+Pick the one that's bugged you longest.
+
+00:02:28.234 --> 00:02:31.058
+Twenty minutes, whatever tools you've got.
+
+00:02:31.058 --> 00:02:35.699
+It's a small thing, but every time you use it after, it'll feel good.
+
+00:02:35.699 --> 00:02:38.188
+Okay, something you've been learning.
+
+00:02:38.188 --> 00:02:43.635
+Remember setting up the memo's audio, and the target of about minus sixteen LUFS?
+
+00:02:43.635 --> 00:02:46.729
+Here's what that number is actually measuring.
+
+00:02:46.729 --> 00:02:50.361
+LUFS stands for loudness units relative to full scale.
+
+00:02:50.361 --> 00:02:53.589
+Full scale is the loudest a digital file can go.
+
+00:02:53.589 --> 00:02:58.365
+So every reading is a negative number, counting down from that ceiling.
+
+00:02:58.365 --> 00:03:01.189
+Minus sixteen is louder than minus twenty.
+
+00:03:01.189 --> 00:03:07.982
+The clever part is that it tries to measure loudness the way your ear does, not the way a meter does.
+
+00:03:07.982 --> 00:03:11.345
+Your ears aren't equally sensitive to every pitch.
+
+00:03:11.345 --> 00:03:19.214
+Deep bass takes a lot of energy to sound loud, while the middle range, where voices live, sounds loud with much less.
+
+00:03:19.214 --> 00:03:22.106
+So the measurement filters the audio first.
+
+00:03:22.106 --> 00:03:28.092
+It turns down the very low end and gives a small boost up top, roughly how hearing works.
+
+00:03:28.092 --> 00:03:30.110
+Then it skips the quiet parts.
+
+00:03:30.110 --> 00:03:39.055
+Gaps between sentences and near-silence get left out of the average, so a pause-heavy episode doesn't read as quieter than it sounds.
+
+00:03:39.055 --> 00:03:43.427
+What's left is averaged across the whole episode into one number.
+
+00:03:43.427 --> 00:03:46.319
+That's why it's called integrated loudness.
+
+00:03:46.319 --> 00:03:47.529
+Why minus sixteen?
+
+00:03:47.529 --> 00:03:56.811
+It's the common podcast target, loud enough to hear over a bus or a bike lane on a phone, with room left so speech doesn't sound squashed.
+
+00:03:56.811 --> 00:04:01.519
+Music apps like Spotify normalize a bit louder, around minus fourteen.
+
+00:04:01.519 --> 00:04:03.604
+And there's one more guardrail.
+
+00:04:03.604 --> 00:04:13.087
+The tallest peaks get kept about one decibel under the ceiling, because turning audio into MP3 can push peaks a little higher than they were.
+
+00:04:13.087 --> 00:04:19.342
+So: calendar says gym at seven, maker space at eight, Godinger till one, and a movie at nine.
+
+00:04:19.342 --> 00:04:20.888
+And fix that one thing.
+
+00:04:20.888 --> 00:04:24.453
+The answer: about a quarter, which is two full stops.
+
+00:04:24.453 --> 00:04:26.000
+Have a good lift, Ziad.
