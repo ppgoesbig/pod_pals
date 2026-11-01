@@ -1,0 +1,205 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:00.908
+Morning, Ziad.
+
+00:00:00.908 --> 00:00:02.788
+Sunday the first of November.
+
+00:00:02.788 --> 00:00:08.300
+Clocks fell back overnight, so you've got a bonus hour, and the calendar's wide open.
+
+00:00:08.300 --> 00:00:10.700
+Here's one to chew on while you move.
+
+00:00:10.700 --> 00:00:16.795
+On a voice leaderboard, what moves the scores more, a favorite winning or an underdog winning?
+
+00:00:16.795 --> 00:00:18.092
+Answer's at the end.
+
+00:00:18.092 --> 00:00:19.065
+Weather's easy.
+
+00:00:19.065 --> 00:00:23.280
+Sunny and dry, around sixty this afternoon, with barely any wind.
+
+00:00:23.280 --> 00:00:24.188
+Okay, the day.
+
+00:00:24.188 --> 00:00:26.263
+Nothing on your calendar at all.
+
+00:00:26.263 --> 00:00:30.154
+The one thing to know is that the marathon is running today.
+
+00:00:30.154 --> 00:00:38.519
+It comes up through Williamsburg and Greenpoint, so if you ride north, expect closed streets along the route for most of the day.
+
+00:00:38.519 --> 00:00:45.198
+Your phone has the right time already, but any old clock on a stove or in the car is now an hour ahead.
+
+00:00:45.198 --> 00:00:46.106
+Alright, news.
+
+00:00:46.106 --> 00:00:47.078
+Just two today.
+
+00:00:47.078 --> 00:00:49.608
+Poland's in a fight over its top court.
+
+00:00:49.608 --> 00:00:57.973
+The government suspended the head of the Constitutional Tribunal, and on Friday riot police showed up outside the court building.
+
+00:00:57.973 --> 00:01:00.307
+The president calls it a power grab.
+
+00:01:00.307 --> 00:01:06.727
+The prime minister says there's no compromise on the rule of law and backs the newly chosen judges.
+
+00:01:06.727 --> 00:01:07.246
+The E.U.
+
+00:01:07.246 --> 00:01:10.488
+is siding with parliament's right to appoint them.
+
+00:01:10.488 --> 00:01:17.297
+It's a messy standoff, and it's the kind of thing that decides who gets to say what the law is for years.
+
+00:01:17.297 --> 00:01:24.689
+And in Ukraine, another night of Russian strikes knocked out power to about two hundred and eighty thousand homes.
+
+00:01:24.689 --> 00:01:29.812
+That's the pattern heading into winter, hitting the grid right as it gets cold.
+
+00:01:29.812 --> 00:01:31.498
+Zelenskyy thanked the U.S.
+
+00:01:31.498 --> 00:01:37.140
+for a deal on five hundred Patriot missiles, the ones that knock down incoming attacks.
+
+00:01:37.140 --> 00:01:42.328
+But he also said delivery could take years, so it doesn't help much this winter.
+
+00:01:42.328 --> 00:01:44.338
+Okay, here's one for next week.
+
+00:01:44.338 --> 00:01:51.082
+Sleepwalk, the bar in Bushwick, does a free vinyl happy hour on Wednesday the eleventh, starting at six.
+
+00:01:51.082 --> 00:01:53.805
+It's about as low-key as a night out gets.
+
+00:01:53.805 --> 00:01:57.177
+Records on, drinks, no cover, and you're home early.
+
+00:01:57.177 --> 00:02:05.024
+A Wednesday is a nice spot for it, right in the middle of the work week when you could use something that isn't a screen.
+
+00:02:05.024 --> 00:02:11.055
+If you've got any records you've been meaning to actually listen to, this is the mood for it.
+
+00:02:11.055 --> 00:02:16.631
+And it's an easy one to bring someone to, since nobody has to commit to a whole night.
+
+00:02:16.631 --> 00:02:18.901
+Today's challenge is for your head.
+
+00:02:18.901 --> 00:02:22.014
+Take a twenty-minute walk with both earbuds out.
+
+00:02:22.014 --> 00:02:26.034
+Try to pick out how many separate sounds are going on at once.
+
+00:02:26.034 --> 00:02:29.730
+A bus, a bird, a radio from a window, your own footsteps.
+
+00:02:29.730 --> 00:02:34.788
+See if you can hold three or four in your head together, like layers in a mix.
+
+00:02:34.788 --> 00:02:38.549
+Marathon day should give you plenty of crowd to work with.
+
+00:02:38.549 --> 00:02:43.672
+It's a good reset for ears that spend most days with something playing in them.
+
+00:02:43.672 --> 00:02:46.072
+Okay, something you've been learning.
+
+00:02:46.072 --> 00:02:48.276
+Remember building the memo's feed?
+
+00:02:48.276 --> 00:02:51.324
+You already know each episode gets its own I.D.
+
+00:02:51.324 --> 00:02:55.280
+Here's what else is going on when an app checks for new ones.
+
+00:02:55.280 --> 00:02:57.290
+The feed is just one text file.
+
+00:02:57.290 --> 00:02:59.495
+At the top, it describes the show.
+
+00:02:59.495 --> 00:03:02.024
+Then there's an entry for each episode.
+
+00:03:02.024 --> 00:03:07.730
+Every entry has a piece called the enclosure, and that's where the audio actually lives.
+
+00:03:07.730 --> 00:03:09.157
+It holds three things.
+
+00:03:09.157 --> 00:03:13.891
+The link to the file, its size, and what kind of file it is, like an MP3.
+
+00:03:13.891 --> 00:03:21.089
+The app reads that before downloading anything, so it knows how much space it needs and whether it can play it.
+
+00:03:21.089 --> 00:03:22.840
+The polling part is clever.
+
+00:03:22.840 --> 00:03:25.369
+Apps don't get pinged when you publish.
+
+00:03:25.369 --> 00:03:28.222
+They come and ask, usually every hour or so.
+
+00:03:28.222 --> 00:03:31.594
+Most apps don't even run that check from your phone.
+
+00:03:31.594 --> 00:03:36.976
+A server checks the feed for everyone, then tells your phone there's something new.
+
+00:03:36.976 --> 00:03:43.072
+If thousands of people subscribe to a show, the host might get one visit instead of thousands.
+
+00:03:43.072 --> 00:03:45.341
+And they try not to waste the trip.
+
+00:03:45.341 --> 00:03:51.696
+When the app asks for the feed, it says, I last saw a version from this time, with this tag on it.
+
+00:03:51.696 --> 00:03:57.857
+If nothing's changed, the server answers with a tiny reply that basically says, same as before.
+
+00:03:57.857 --> 00:03:59.478
+No file gets sent at all.
+
+00:03:59.478 --> 00:04:03.498
+Only when the feed is different does the full thing come down.
+
+00:04:03.498 --> 00:04:07.389
+That's why a new episode can take a little while to show up.
+
+00:04:07.389 --> 00:04:13.355
+Your push lands, the feed updates, and then it waits for the next time the app comes asking.
+
+00:04:13.355 --> 00:04:19.386
+So: calendar's empty, the marathon's closing streets up north, and try that earbuds-out walk.
+
+00:04:19.386 --> 00:04:24.249
+The answer: an underdog win, because the surprise is what moves the needle.
+
+00:04:24.249 --> 00:04:26.000
+Enjoy the extra hour, Ziad.
