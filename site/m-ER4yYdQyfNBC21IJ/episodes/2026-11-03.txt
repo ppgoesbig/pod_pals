@@ -1,0 +1,39 @@
+Morning, Ziad. Tuesday the third, Election Day. Calendar runs long today, from a run first thing to a late class that ends around nine-thirty.
+
+Here's one to chew on while you move. When a loud sound hides a quieter one close to it in pitch, what's that called? Answer's at the end.
+
+Quick note on weather. The forecast sources wouldn't load this morning, so this one's on you and the window.
+
+Okay, the day. Calendar has an easy zone two run at seven, thirty minutes.
+
+Then Godinger, nine to five.
+
+There's a UPS returns drop on there at quarter to six.
+
+And the calendar closes with yin and nidra at eight twenty-five, wrapping at nine-thirty. So there's a real gap between the drop-off and the class. That's the window to eat, and polls stay open till nine if you haven't voted yet.
+
+Alright, news. Short one today, because the news sources were down on this end too.
+
+The only thing worth saying is that tonight's the night. Polls close at nine, and the governor's race and those ballot proposals start coming in right after. By the time you're rolling up your mat, the first numbers should be out. The full rundown can wait for tomorrow.
+
+Today's challenge is a social one. At some point during the workday, ask one person a real question about something they're good at outside of work. A hobby, a skill, a thing they used to do. Then let them talk, and ask one follow-up. That's it. Most people rarely get asked, and you'll probably learn something you didn't expect about someone you see every day.
+
+Okay, something you've been learning. Remember setting up the memo's private feed path, the idea that a link nobody can guess works like a lock? Last week the answer was that leaks are the real risk, not guessing. Here's why guessing is basically off the table, and where leaks actually come from.
+
+Start with the guessing. A good random link carries about a hundred and twenty-eight bits of randomness. That's around twenty-two characters of jumble. The number of possible links is a three with thirty-eight zeros after it. Say someone could try a billion links every second. Running through them all would take something like a trillion times longer than the universe has existed. Even being lucky only gets you so far. So a long random link really can't be guessed. A short one, or one built from a pattern like a date or a name, is a different story.
+
+Now the leaks, and a few of them are sneaky.
+
+The first is link previews. Paste a link into most chat apps and the app's servers go fetch it, just to draw that little preview card. Nobody clicked, but a computer you don't control has now seen it.
+
+The second is the trail a click leaves. When you tap a link on a page, your browser can tell the next site where you came from. Modern browsers mostly trim that down to just the site's name, but older setups and some apps still pass along the whole address.
+
+The third is being linked from anywhere public. If the link ever lands on a public page, search engines can find it and list it. There's a polite request you can add to a page asking search engines to stay away, but it's a request, not a wall.
+
+And the last one is the big one. You can't take a link back. Once it's out, there's no unsending it. The only fix is changing the lock. That means making a fresh random link, moving the thing there, and killing the old one. Anyone you still want in gets the new link.
+
+So the honest version is this. An unguessable link is a strong lock with no key log. It's great for things where a leak would be a little awkward. For things where a leak would really hurt, you want a real login, so you can see who's coming in and shut one person out without changing it for everyone.
+
+So: calendar says run at seven, Godinger till five, the UPS drop at five forty-five, and yin at eight twenty-five. And ask one person about their thing. The answer: masking.
+
+Have an easy run, Ziad.
