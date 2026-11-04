@@ -11,6 +11,17 @@
     <itunes:block>Yes</itunes:block>
     <itunes:category text="News"/>
     <item>
+      <title>Morning Memo - Wed Nov 4</title>
+      <description>Morning, Ziad. Wednesday the fourth. A warm one, a full workday, and a couple of things on there for the evening.</description>
+      <enclosure url="https://ppgoesbig.github.io/pod_pals/m-ER4yYdQyfNBC21IJ/episodes/2026-11-04.mp3" length="3334417" type="audio/mpeg"/>
+      <guid isPermaLink="false">memo-2026-11-04</guid>
+      <pubDate>Wed, 04 Nov 2026 06:00:00 -0400</pubDate>
+      <itunes:duration>4:37</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <podcast:transcript url="https://ppgoesbig.github.io/pod_pals/m-ER4yYdQyfNBC21IJ/episodes/2026-11-04.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://ppgoesbig.github.io/pod_pals/m-ER4yYdQyfNBC21IJ/episodes/2026-11-04.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
       <title>Morning Memo - Tue Nov 3</title>
       <description>Morning, Ziad. Tuesday the third, Election Day. Calendar runs long today, from a run first thing to a late class that ends around nine-thirty.</description>
       <enclosure url="https://ppgoesbig.github.io/pod_pals/m-ER4yYdQyfNBC21IJ/episodes/2026-11-03.mp3" length="3000259" type="audio/mpeg"/>
