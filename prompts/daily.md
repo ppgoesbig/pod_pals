@@ -53,4 +53,7 @@ The repo and audio are public at an unlisted URL. For calendar items, say the ti
 ## Debug note
 At the very end of the file, add one HTML comment naming the learning topic and recall topic used, e.g. `<!-- learning: TTS Elo leaderboards; recall: loudness normalization -->`. It's stripped before speech.
 
+## Web pages
+This runs at dawn with nobody around to approve anything. Only open pages whose links came back from a web search in this run. Never type a URL yourself, guess one, or edit one, including weather.gov, because hand-typed links trigger an approval prompt nobody will answer. For weather, search something like "Brooklyn weather today hourly rain wind" and open a forecast page from the results. If a page won't open, move on to another result and don't retry it. Subagents follow the same rule.
+
 If anything fails (a tool is down, the push is rejected), still write and push the memo with what you have, and mention the gap in one line.
