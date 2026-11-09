@@ -1,0 +1,223 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:00.940
+Morning, Ziad.
+
+00:00:00.940 --> 00:00:02.081
+Monday the ninth.
+
+00:00:02.081 --> 00:00:07.385
+A plain workday on the calendar, a bright sky, and a wind with some push to it.
+
+00:00:07.385 --> 00:00:09.870
+Here's one to chew on while you move.
+
+00:00:09.870 --> 00:00:10.675
+When an A.I.
+
+00:00:10.675 --> 00:00:14.905
+image model makes a brand new picture, what does it start from?
+
+00:00:14.905 --> 00:00:16.248
+Answer's at the end.
+
+00:00:16.248 --> 00:00:20.545
+Weather's dry and sunny all day, topping out in the low sixties.
+
+00:00:20.545 --> 00:00:22.559
+The thing to know is the wind.
+
+00:00:22.559 --> 00:00:32.160
+It's out of the northwest around fifteen, with gusts in the mid-twenties from midday into the evening, so the ride home will lean on you a bit.
+
+00:00:32.160 --> 00:00:33.100
+Okay, the day.
+
+00:00:33.100 --> 00:00:36.121
+Calendar has the gym at seven, straight sets.
+
+00:00:36.121 --> 00:00:38.001
+Then Godinger, nine to five.
+
+00:00:38.001 --> 00:00:41.492
+Nothing on there after that, so the evening's yours.
+
+00:00:41.492 --> 00:00:42.432
+Alright, news.
+
+00:00:42.432 --> 00:00:44.648
+The big one this week is Ukraine.
+
+00:00:44.648 --> 00:00:53.107
+Peace talks start tomorrow in Abu Dhabi, brokered by the U.S., and now European leaders are joining in, with France confirmed.
+
+00:00:53.107 --> 00:00:58.478
+Russia's sending deputy foreign ministers plus military and intelligence chiefs.
+
+00:00:58.478 --> 00:01:04.454
+Trump says he expects the war to end soon and hinted that Ukraine's borders could change.
+
+00:01:04.454 --> 00:01:11.504
+Meanwhile, Russian strikes on Sunday knocked out power for about eight hundred and fifty thousand people.
+
+00:01:11.504 --> 00:01:19.157
+The Zaporizhzhia nuclear plant lost its outside power too, and it's running on backup diesel generators right now.
+
+00:01:19.157 --> 00:01:20.433
+And the yearly U.N.
+
+00:01:20.433 --> 00:01:25.334
+climate summit opens today, this time in Antalya, on the coast of Turkey.
+
+00:01:25.334 --> 00:01:29.497
+Nearly two hundred countries are there for the next two weeks.
+
+00:01:29.497 --> 00:01:37.889
+The United States isn't sending anyone, which makes it the odd one out at a table where it used to be one of the main voices.
+
+00:01:37.889 --> 00:01:39.299
+One from your corner.
+
+00:01:39.299 --> 00:01:40.978
+Ideogram, one of the A.I.
+
+00:01:40.978 --> 00:01:44.402
+image tools, put out a feature called Precise Edit.
+
+00:01:44.402 --> 00:01:50.847
+You pick a spot in an image and change just that, and every other pixel stays exactly as it was.
+
+00:01:50.847 --> 00:01:56.084
+Until now, asking for a fix to one corner would quietly shift the whole image.
+
+00:01:56.084 --> 00:02:01.657
+Locking everything else down is what makes a tool like that usable on product work.
+
+00:02:01.657 --> 00:02:03.738
+Okay, here's one for this week.
+
+00:02:03.738 --> 00:02:13.406
+Starr Suites, a small gallery on Starr Street in Bushwick, has a two-painter show called Luminosity, with work by Fox Hysen and Juliet Jacobson.
+
+00:02:13.406 --> 00:02:17.770
+It closes Sunday the fifteenth, so this weekend is the last shot.
+
+00:02:17.770 --> 00:02:28.714
+It's around the corner from where you already spend your mornings, and a title like that is a decent excuse for a photographer to go see how painters handle light.
+
+00:02:28.714 --> 00:02:30.997
+Today's challenge is a social one.
+
+00:02:30.997 --> 00:02:36.435
+Sometime today, send one voice note to a friend you haven't talked to in a while.
+
+00:02:36.435 --> 00:02:38.449
+Not a text, your actual voice.
+
+00:02:38.449 --> 00:02:40.128
+Thirty seconds is plenty.
+
+00:02:40.128 --> 00:02:44.357
+Tell them one thing from your week and ask them one thing back.
+
+00:02:44.357 --> 00:02:50.266
+Voice lands warmer than typing, and it's easier to answer, so you'll probably hear back.
+
+00:02:50.266 --> 00:02:52.750
+Okay, something you've been learning.
+
+00:02:52.750 --> 00:02:58.188
+Remember setting up the memo's audio so every episode lands around minus sixteen?
+
+00:02:58.188 --> 00:03:00.605
+That number is the average loudness.
+
+00:03:00.605 --> 00:03:05.439
+But there's a second number in that same step, and it's about the peaks.
+
+00:03:05.439 --> 00:03:06.849
+Here's why it exists.
+
+00:03:06.849 --> 00:03:08.930
+Digital audio is a row of dots.
+
+00:03:08.930 --> 00:03:15.712
+Each dot is one sample, a single height of the sound wave, taken tens of thousands of times a second.
+
+00:03:15.712 --> 00:03:17.122
+That's the raw P.C.M.
+
+00:03:17.122 --> 00:03:19.539
+you got back from the voice service.
+
+00:03:19.539 --> 00:03:22.963
+When the sound plays, your earbuds don't play dots.
+
+00:03:22.963 --> 00:03:25.447
+They draw a smooth wave through them.
+
+00:03:25.447 --> 00:03:26.588
+Here's the catch.
+
+00:03:26.588 --> 00:03:31.557
+A smooth curve through a row of dots can swing higher than any single dot.
+
+00:03:31.557 --> 00:03:33.906
+Picture two tall dots side by side.
+
+00:03:33.906 --> 00:03:37.062
+The curve between them can bulge up above both.
+
+00:03:37.062 --> 00:03:39.949
+Those bulges are called inter-sample peaks.
+
+00:03:39.949 --> 00:03:43.306
+A meter that only checks the dots never sees them.
+
+00:03:43.306 --> 00:03:48.946
+So a file can look safe, with no dot touching the top, and still clip when it plays.
+
+00:03:48.946 --> 00:03:50.356
+M.P.3 makes it worse.
+
+00:03:50.356 --> 00:03:53.847
+Remember how it throws away sounds you won't notice?
+
+00:03:53.847 --> 00:04:00.292
+Rebuilding the wave from what's left nudges its shape, and the peaks can creep up a little more.
+
+00:04:00.292 --> 00:04:04.186
+That's why the setting is called true peak, not just peak.
+
+00:04:04.186 --> 00:04:09.826
+The meter guesses where the smooth wave will really go, not just where the dots sit.
+
+00:04:09.826 --> 00:04:13.787
+The common rule is to keep true peak under about minus one.
+
+00:04:13.787 --> 00:04:18.084
+That leaves a little headroom so nothing clips after conversion.
+
+00:04:18.084 --> 00:04:19.628
+There's one more twist.
+
+00:04:19.628 --> 00:04:25.268
+If an episode comes in louder than an app's target, a lot of apps just turn it down.
+
+00:04:25.268 --> 00:04:28.155
+So pushing louder doesn't win you anything.
+
+00:04:28.155 --> 00:04:31.848
+You end up at the same level, just with squashed peaks.
+
+00:04:31.848 --> 00:04:36.749
+So: calendar says gym at seven and Godinger till five, with a free night.
+
+00:04:36.749 --> 00:04:38.159
+Send that voice note.
+
+00:04:38.159 --> 00:04:42.322
+The answer: pure random static, cleaned up a little at a time.
+
+00:04:42.322 --> 00:04:44.000
+Have a good Monday, Ziad.

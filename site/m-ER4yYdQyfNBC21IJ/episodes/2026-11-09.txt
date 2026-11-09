@@ -1,0 +1,39 @@
+Morning, Ziad. Monday the ninth. A plain workday on the calendar, a bright sky, and a wind with some push to it.
+
+Here's one to chew on while you move. When an A.I. image model makes a brand new picture, what does it start from? Answer's at the end.
+
+Weather's dry and sunny all day, topping out in the low sixties. The thing to know is the wind. It's out of the northwest around fifteen, with gusts in the mid-twenties from midday into the evening, so the ride home will lean on you a bit.
+
+Okay, the day. Calendar has the gym at seven, straight sets.
+
+Then Godinger, nine to five.
+
+Nothing on there after that, so the evening's yours.
+
+Alright, news.
+
+The big one this week is Ukraine. Peace talks start tomorrow in Abu Dhabi, brokered by the U.S., and now European leaders are joining in, with France confirmed. Russia's sending deputy foreign ministers plus military and intelligence chiefs. Trump says he expects the war to end soon and hinted that Ukraine's borders could change. Meanwhile, Russian strikes on Sunday knocked out power for about eight hundred and fifty thousand people. The Zaporizhzhia nuclear plant lost its outside power too, and it's running on backup diesel generators right now.
+
+And the yearly U.N. climate summit opens today, this time in Antalya, on the coast of Turkey. Nearly two hundred countries are there for the next two weeks. The United States isn't sending anyone, which makes it the odd one out at a table where it used to be one of the main voices.
+
+One from your corner. Ideogram, one of the A.I. image tools, put out a feature called Precise Edit. You pick a spot in an image and change just that, and every other pixel stays exactly as it was. Until now, asking for a fix to one corner would quietly shift the whole image. Locking everything else down is what makes a tool like that usable on product work.
+
+Okay, here's one for this week. Starr Suites, a small gallery on Starr Street in Bushwick, has a two-painter show called Luminosity, with work by Fox Hysen and Juliet Jacobson. It closes Sunday the fifteenth, so this weekend is the last shot. It's around the corner from where you already spend your mornings, and a title like that is a decent excuse for a photographer to go see how painters handle light.
+
+Today's challenge is a social one. Sometime today, send one voice note to a friend you haven't talked to in a while. Not a text, your actual voice. Thirty seconds is plenty. Tell them one thing from your week and ask them one thing back. Voice lands warmer than typing, and it's easier to answer, so you'll probably hear back.
+
+Okay, something you've been learning. Remember setting up the memo's audio so every episode lands around minus sixteen? That number is the average loudness. But there's a second number in that same step, and it's about the peaks. Here's why it exists.
+
+Digital audio is a row of dots. Each dot is one sample, a single height of the sound wave, taken tens of thousands of times a second. That's the raw P.C.M. you got back from the voice service. When the sound plays, your earbuds don't play dots. They draw a smooth wave through them.
+
+Here's the catch. A smooth curve through a row of dots can swing higher than any single dot. Picture two tall dots side by side. The curve between them can bulge up above both. Those bulges are called inter-sample peaks. A meter that only checks the dots never sees them.
+
+So a file can look safe, with no dot touching the top, and still clip when it plays. M.P.3 makes it worse. Remember how it throws away sounds you won't notice? Rebuilding the wave from what's left nudges its shape, and the peaks can creep up a little more.
+
+That's why the setting is called true peak, not just peak. The meter guesses where the smooth wave will really go, not just where the dots sit. The common rule is to keep true peak under about minus one. That leaves a little headroom so nothing clips after conversion.
+
+There's one more twist. If an episode comes in louder than an app's target, a lot of apps just turn it down. So pushing louder doesn't win you anything. You end up at the same level, just with squashed peaks.
+
+So: calendar says gym at seven and Godinger till five, with a free night. Send that voice note. The answer: pure random static, cleaned up a little at a time.
+
+Have a good Monday, Ziad.
