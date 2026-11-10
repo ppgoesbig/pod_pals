@@ -1,0 +1,226 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:00.951
+Morning, Ziad.
+
+00:00:00.951 --> 00:00:02.173
+Tuesday the tenth.
+
+00:00:02.173 --> 00:00:06.655
+A bright, blustery one, with a short calendar and an open evening.
+
+00:00:06.655 --> 00:00:09.167
+Here's one to chew on while you move.
+
+00:00:09.167 --> 00:00:13.989
+Why are those hard intervals four minutes long, and not thirty seconds?
+
+00:00:13.989 --> 00:00:15.347
+Answer's at the end.
+
+00:00:15.347 --> 00:00:17.248
+Weather's mostly about wind.
+
+00:00:17.248 --> 00:00:24.718
+Sun and high clouds, low sixties, with northwest gusts in the twenties and maybe a quick shower around midday.
+
+00:00:24.718 --> 00:00:27.706
+That's enough to push back on the ride home.
+
+00:00:27.706 --> 00:00:32.120
+Rain moves in Thursday afternoon, and it turns chilly after that.
+
+00:00:32.120 --> 00:00:33.071
+Okay, the day.
+
+00:00:33.071 --> 00:00:37.077
+Calendar has an easy zone two run at seven, thirty minutes.
+
+00:00:37.077 --> 00:00:38.978
+Then Godinger, nine to five.
+
+00:00:38.978 --> 00:00:40.880
+Nothing on there after that.
+
+00:00:40.880 --> 00:00:48.010
+And that group singing night on Scott Avenue from Saturday's memo is tonight at seven, if you're curious.
+
+00:00:48.010 --> 00:00:48.961
+Alright, news.
+
+00:00:48.961 --> 00:00:50.319
+One from your world.
+
+00:00:50.319 --> 00:00:53.035
+Adobe just became Disney's official A.I.
+
+00:00:53.035 --> 00:00:57.449
+partner, announced as Adobe's big MAX conference opened in Miami.
+
+00:00:57.449 --> 00:01:07.771
+Adobe will build custom image and video models trained only on Disney's own characters and worlds, for the studio, ESPN, and the parks and cruise lines.
+
+00:01:07.771 --> 00:01:09.537
+That's the part to notice.
+
+00:01:09.537 --> 00:01:14.222
+Big brands don't want a general model that's seen the whole internet.
+
+00:01:14.222 --> 00:01:17.074
+They want one that only knows their stuff.
+
+00:01:17.074 --> 00:01:22.778
+Concept artists are wary, though, since it lands while Disney is cutting costs hard.
+
+00:01:22.778 --> 00:01:24.544
+A strange one from France.
+
+00:01:24.544 --> 00:01:35.952
+Officials there say a hacking unit from Iran's Revolutionary Guards broke into the refrigeration systems at nearly seven hundred supermarkets and food sites in October.
+
+00:01:35.952 --> 00:01:38.193
+At least fifteen fires broke out.
+
+00:01:38.193 --> 00:01:44.033
+Similar break-ins hit more than a hundred places across Europe, including blood banks.
+
+00:01:44.033 --> 00:01:48.243
+France wants European sanctions, and Iran hasn't answered yet.
+
+00:01:48.243 --> 00:01:50.009
+And a surprise on climate.
+
+00:01:50.009 --> 00:01:57.275
+The yearly global carbon count projects fossil fuel emissions will fall this year, by about half a percent.
+
+00:01:57.275 --> 00:02:00.127
+That's the first drop since twenty twenty.
+
+00:02:00.127 --> 00:02:02.300
+The reason isn't policy, though.
+
+00:02:02.300 --> 00:02:07.529
+It's the oil price spike from the Iran war, which pushed people to burn less.
+
+00:02:07.529 --> 00:02:07.801
+U.S.
+
+00:02:07.801 --> 00:02:10.992
+emissions are down a bit more than one percent.
+
+00:02:10.992 --> 00:02:15.814
+The scientists warn it could flip right back once oil gets cheap again.
+
+00:02:15.814 --> 00:02:17.851
+Okay, here's one for Saturday.
+
+00:02:17.851 --> 00:02:27.697
+The Sultan Room, the little venue on the Bushwick and East Williamsburg line, has AJ Lee and Blue Summit at seven, with The Cody Sisters opening.
+
+00:02:27.697 --> 00:02:33.945
+It's a California bluegrass band, tight harmonies and fast picking, about twenty-five bucks.
+
+00:02:33.945 --> 00:02:38.562
+It's a small room, so you're close enough to watch hands on strings.
+
+00:02:38.562 --> 00:02:41.211
+A warm thing to do on a chilly weekend.
+
+00:02:41.211 --> 00:02:43.452
+Today's challenge is a photo one.
+
+00:02:43.452 --> 00:02:45.625
+The wind's doing the work today.
+
+00:02:45.625 --> 00:02:55.675
+Find one thing it's moving, a flag, a tree, a loose sign, someone's scarf, and make one photo where anybody could tell it's windy without a caption.
+
+00:02:55.675 --> 00:02:57.305
+Try it a couple of ways.
+
+00:02:57.305 --> 00:03:00.700
+Freeze it mid-whip, or hold still and let it blur.
+
+00:03:00.700 --> 00:03:02.669
+One frame you like is enough.
+
+00:03:02.669 --> 00:03:05.182
+Okay, something you've been learning.
+
+00:03:05.182 --> 00:03:09.664
+Remember finding out the voice service only hands back raw P.C.M.?
+
+00:03:09.664 --> 00:03:12.516
+Yesterday was about the dots in that file.
+
+00:03:12.516 --> 00:03:18.967
+Today's about the two numbers that decide how many dots there are, and why that file is so big.
+
+00:03:18.967 --> 00:03:23.177
+The first number is the sample rate, how many dots per second.
+
+00:03:23.177 --> 00:03:28.406
+The rule is that you need at least two dots for every wave you want to catch.
+
+00:03:28.406 --> 00:03:32.752
+So to capture a sound up to some pitch, you sample at double it.
+
+00:03:32.752 --> 00:03:41.172
+People hear up to about twenty thousand cycles a second, which is why music uses about forty-four thousand samples a second.
+
+00:03:41.172 --> 00:03:43.210
+Speech doesn't need that much.
+
+00:03:43.210 --> 00:03:51.698
+The useful stuff in a voice sits lower, so a lot of voice services, including the one reading this, use twenty-four thousand.
+
+00:03:51.698 --> 00:03:58.149
+That still catches everything up to twelve thousand, which covers the crispness of an s or a t.
+
+00:03:58.149 --> 00:04:03.106
+The second number is bit depth, how finely each dot's height is measured.
+
+00:04:03.106 --> 00:04:07.452
+Sixteen bits gives you about sixty-five thousand possible steps.
+
+00:04:07.452 --> 00:04:13.360
+That's fine enough that the rounding errors sit way below anything you'd hear on a run.
+
+00:04:13.360 --> 00:04:14.243
+Now multiply.
+
+00:04:14.243 --> 00:04:21.102
+Twenty-four thousand dots a second, two bytes each, is about forty-eight thousand bytes every second.
+
+00:04:21.102 --> 00:04:25.923
+A five minute episode comes out around fourteen megabytes of raw audio.
+
+00:04:25.923 --> 00:04:31.491
+Turn that into an M.P.3 at a normal voice setting and it's closer to two or three.
+
+00:04:31.491 --> 00:04:39.572
+Same five minutes, about a sixth of the size, because the M.P.3 stores a description of the sound instead of every dot.
+
+00:04:39.572 --> 00:04:43.035
+That's why the pipeline converts before publishing.
+
+00:04:43.035 --> 00:04:43.714
+Raw P.C.M.
+
+00:04:43.714 --> 00:04:46.227
+is perfect for editing and measuring.
+
+00:04:46.227 --> 00:04:48.536
+M.P.3 is what you send to a phone.
+
+00:04:48.536 --> 00:04:53.493
+So: calendar says run at seven and Godinger till five, with a free night.
+
+00:04:53.493 --> 00:04:54.512
+Shoot the wind.
+
+00:04:54.512 --> 00:05:01.234
+The answer: your heart takes a minute or two to climb, so four minutes buys real time near the top.
+
+00:05:01.234 --> 00:05:03.000
+Have a good Tuesday, Ziad.
