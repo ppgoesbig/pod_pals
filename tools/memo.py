@@ -262,7 +262,7 @@ def prune():
 def cmd_episodes():
     tts_cfg = CFG["tts"]
     made = 0
-    for script in sorted(SCRIPTS.glob("*.md")):
+    for script in sorted(SCRIPTS.glob("????-??-??.md"))[-CFG.get("keep_episodes", 30):]:
         try:
             dt.date.fromisoformat(script.stem)
         except ValueError:
