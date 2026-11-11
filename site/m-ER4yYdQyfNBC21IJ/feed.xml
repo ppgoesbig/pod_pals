@@ -11,6 +11,17 @@
     <itunes:block>Yes</itunes:block>
     <itunes:category text="News"/>
     <item>
+      <title>Morning Memo - Wed Nov 11</title>
+      <description>Morning, Ziad. Wednesday the eleventh, Veterans Day. A mild, easy one, and the calm before a wet Thursday.</description>
+      <enclosure url="https://ppgoesbig.github.io/pod_pals/m-ER4yYdQyfNBC21IJ/episodes/2026-11-11.mp3" length="3577356" type="audio/mpeg"/>
+      <guid isPermaLink="false">memo-2026-11-11</guid>
+      <pubDate>Wed, 11 Nov 2026 06:00:00 -0400</pubDate>
+      <itunes:duration>4:58</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <podcast:transcript url="https://ppgoesbig.github.io/pod_pals/m-ER4yYdQyfNBC21IJ/episodes/2026-11-11.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://ppgoesbig.github.io/pod_pals/m-ER4yYdQyfNBC21IJ/episodes/2026-11-11.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
       <title>Morning Memo - Tue Nov 10</title>
       <description>Morning, Ziad. Tuesday the tenth. A bright, blustery one, with a short calendar and an open evening.</description>
       <enclosure url="https://ppgoesbig.github.io/pod_pals/m-ER4yYdQyfNBC21IJ/episodes/2026-11-10.mp3" length="3648200" type="audio/mpeg"/>

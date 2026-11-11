@@ -1,0 +1,41 @@
+Morning, Ziad. Wednesday the eleventh, Veterans Day. A mild, easy one, and the calm before a wet Thursday.
+
+Here's one to chew on while you move. In a blind voice test, which clip do people tend to pick, and how do good arenas fix it? Answer's at the end.
+
+Weather's on your side today. Sunny, around sixty, barely any wind. Tomorrow's the one to plan around. A nor'easter rolls in, with the heaviest rain from about two to eight and gusts up in the thirties, so tomorrow's not a bike day.
+
+Okay, the day. Calendar has the gym at seven.
+
+Then it's got Godinger from nine to five, holiday or not.
+
+After that, nothing on there. A free night on a nice evening, which is worth using before the rain.
+
+Alright, news.
+
+The Ukraine talks in Abu Dhabi actually got going. Monday's piece was the setup, and since then the Russian and Ukrainian sides spent about four hours across the table on Tuesday, with the U.S. in the middle. Zelensky called it constructive. The U.S. side says the gaps got smaller. Today's day two, and it's about energy plants, the Black Sea, and maybe a big prisoner swap, a thousand people each way, possibly more. The hard part hasn't moved. Russia wants land Ukraine still holds, and it won't agree to a ceasefire yet.
+
+One from your corner. A Chinese A.I. company called MiniMax put out an image model you can download and run yourself, for making and editing pictures. They say it does 4K images in under ten seconds, and it can take up to sixteen reference images at once. That second part is the interesting one for product work. More reference shots means more chances to keep an object looking like itself.
+
+And a nice one from the book world. The Booker Prize went to M. John Harrison for a novel called The End of Everything. He's eighty-one, the oldest winner ever, and it's the first time the prize has gone to someone who comes straight out of science fiction. The book is a funny, strange end-of-the-world story set on the English coast, with a slow invasion by shape-shifting creatures.
+
+Okay, here's one for Sunday. Bogart House, on Bogart Street right in Bushwick, is hosting something called Play Fair Brooklyn, from one to five. It's a fair for local clubs, more than twenty groups, and each one runs a little hands-on activity. Pottery, beading, knitting, chess, board games, some breathwork. Tickets are about thirty bucks.
+
+It's basically a sampler. You get to try a bunch of things, meet the people who run them, and maybe walk out with a new Tuesday night thing. Good fit for someone who likes making stuff with his hands.
+
+Today's challenge is for your body. Tonight, while you brush your teeth, stand on one leg. Switch halfway. If that's easy, close your eyes for the last few seconds and feel how much harder it gets. Balance fades quietly if you never test it, and it's the same thing that keeps you upright when the bike slides on a wet corner.
+
+Okay, something you've been learning. Remember building the memo feed, and how an app only grabs the M.P.3 when the feed says there's a new episode? Here's what happens next. How your phone actually pulls down that file, and why you can skip ahead before it's done.
+
+Inside each episode in the feed there's the enclosure. It holds three things. The link to the file, what kind of file it is, and its length in bytes. That length isn't decoration. It tells the app how big the download is before it starts, so it can show progress and check it got the whole thing.
+
+Now the clever part. When your app asks for the file, it doesn't have to ask for all of it. It can say, just send me bytes one million through two million. That's called a range request. The server sends back only that slice.
+
+That's how skipping works. Jump to minute three, and the app does quick math. Bytes per second, times the number of seconds, roughly where minute three lives in the file. It asks for that slice and starts playing from there, without downloading the first three minutes.
+
+It's also how a download survives a dead zone. Lose signal halfway down the block, and the app doesn't start over. It asks for the rest, starting at the byte where it stopped.
+
+The catch is the server has to support it. Most static hosting, including the kind serving this memo, does it out of the box. A server that can't would force every skip to wait, and every dropped download to start from zero.
+
+So: calendar says gym at seven and Godinger till five, then a free night. Try the one-leg brush. The answer: usually the clip they heard last, so good arenas shuffle the order.
+
+Enjoy the sun while it lasts, Ziad.
