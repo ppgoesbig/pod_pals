@@ -1,0 +1,193 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:00.933
+Morning, Ziad.
+
+00:00:00.933 --> 00:00:02.333
+Thursday the twelfth.
+
+00:00:02.333 --> 00:00:07.132
+The rain day, with a full calendar under it and a late evening on there.
+
+00:00:07.132 --> 00:00:09.598
+Here's one to chew on while you move.
+
+00:00:09.598 --> 00:00:14.930
+What's the safe ceiling for true peak in a podcast file, and why leave that gap?
+
+00:00:14.930 --> 00:00:16.263
+Answer's at the end.
+
+00:00:16.263 --> 00:00:17.996
+Weather's the story today.
+
+00:00:17.996 --> 00:00:27.660
+Dry this morning, then rain from late morning, heaviest early afternoon, a lighter patch around five, and steady again from seven into the night.
+
+00:00:27.660 --> 00:00:33.592
+It keeps going through Friday morning and turns cold, close to forty by Friday afternoon.
+
+00:00:33.592 --> 00:00:38.458
+I couldn't pull wind numbers this morning, so check that before you ride.
+
+00:00:38.458 --> 00:00:39.391
+Okay, the day.
+
+00:00:39.391 --> 00:00:43.323
+Calendar has an easy zone two run at seven, thirty minutes.
+
+00:00:43.323 --> 00:00:48.389
+There's a lens return on there for the morning, with the time still not set.
+
+00:00:48.389 --> 00:00:50.255
+Then Godinger, nine to five.
+
+00:00:50.255 --> 00:00:52.655
+And plans on there at eight tonight.
+
+00:00:52.655 --> 00:00:58.320
+That five o'clock lull is your best window to get home before the rain picks back up.
+
+00:00:58.320 --> 00:00:59.253
+Alright, news.
+
+00:00:59.253 --> 00:01:00.653
+One from your corner.
+
+00:01:00.653 --> 00:01:04.385
+Adobe used its MAX conference this week to turn its A.I.
+
+00:01:04.385 --> 00:01:06.985
+helper into something that's always on.
+
+00:01:06.985 --> 00:01:14.983
+It watches what you're working on and jumps in on quick jobs, like cutting out a background or making a video thumbnail.
+
+00:01:14.983 --> 00:01:26.513
+The bigger part for you is a new local connector that lets chatbots like Claude, ChatGPT, and Gemini reach into Photoshop, Illustrator, Premiere, and After Effects directly.
+
+00:01:26.513 --> 00:01:27.513
+Closer to home.
+
+00:01:27.513 --> 00:01:34.978
+The Agriculture Department proposed a rule that would cut about six point three million people from food stamps.
+
+00:01:34.978 --> 00:01:36.911
+It's only a proposal for now.
+
+00:01:36.911 --> 00:01:45.442
+But New York has one of the biggest food stamp rolls in the country, so this one would land hard in the city if it goes through.
+
+00:01:45.442 --> 00:01:53.107
+And in Europe, at least four drones drifted into Lithuania, Latvia, and Estonia during Ukrainian strikes on Russia.
+
+00:01:53.107 --> 00:01:56.240
+People got shelter alerts, and nobody was hurt.
+
+00:01:56.240 --> 00:02:05.771
+It lands as NATO reportedly weighs its biggest planning overhaul in about twenty years, shifting its focus toward a possible fight with Russia.
+
+00:02:05.771 --> 00:02:07.970
+Okay, here's one for the weekend.
+
+00:02:07.970 --> 00:02:15.835
+A new spot called Chyelle, on Cook Street at White Street in Bushwick, is a vintage furniture shop with a cafe inside.
+
+00:02:15.835 --> 00:02:23.234
+It's run by the person behind a big Instagram account about Facebook Marketplace finds, so the stuff is picked.
+
+00:02:23.234 --> 00:02:28.166
+The rooms are set up like living rooms, so you can actually sit in things.
+
+00:02:28.166 --> 00:02:35.298
+Glassware and lamps start around twenty bucks, and Danish walnut chairs run about a hundred and forty each.
+
+00:02:35.298 --> 00:02:38.430
+It's open every day but Tuesday, nine to eight.
+
+00:02:38.430 --> 00:02:45.495
+Worth a slow wander on a cold Saturday, and the rooms alone might give you a few ideas for props and sets.
+
+00:02:45.495 --> 00:02:47.828
+Today's challenge is for your head.
+
+00:02:47.828 --> 00:02:56.826
+Pick one wait today, a coffee line, a slow elevator, the minute before a call, and leave your phone in your pocket for the whole thing.
+
+00:02:56.826 --> 00:02:57.959
+Just look around.
+
+00:02:57.959 --> 00:03:02.691
+Find three things you've walked past a hundred times and never noticed.
+
+00:03:02.691 --> 00:03:07.223
+It's the same habit that finds a shot before you go looking for one.
+
+00:03:07.223 --> 00:03:09.690
+Okay, something you've been learning.
+
+00:03:09.690 --> 00:03:14.822
+Remember wiring up the memo so a push renders the audio and updates the feed?
+
+00:03:14.822 --> 00:03:23.020
+Here's what actually happens on GitHub's side after you push, and three small settings in your own setup that make it work.
+
+00:03:23.020 --> 00:03:25.819
+First, every run gets a brand new machine.
+
+00:03:25.819 --> 00:03:31.485
+GitHub rents you a fresh computer, runs your steps, then throws the whole thing away.
+
+00:03:31.485 --> 00:03:32.884
+Nothing carries over.
+
+00:03:32.884 --> 00:03:38.416
+That's why your workflow installs the audio tool from scratch every single morning.
+
+00:03:38.416 --> 00:03:40.882
+Wasteful, but every run starts clean.
+
+00:03:40.882 --> 00:03:42.149
+Second, the filter.
+
+00:03:42.149 --> 00:03:48.281
+Your setup only wakes up when something changes in a few folders, like scripts or the tools.
+
+00:03:48.281 --> 00:03:55.146
+So when the bot commits the finished audio afterward, that commit lands in a folder the filter ignores.
+
+00:03:55.146 --> 00:04:02.144
+And on top of that, GitHub won't let a push made by a workflow's own built-in key start another workflow.
+
+00:04:02.144 --> 00:04:06.277
+Two locks, so the bot can't trigger itself in an endless loop.
+
+00:04:06.277 --> 00:04:07.343
+Third, the line.
+
+00:04:07.343 --> 00:04:12.009
+Your setup puts every render in one group, and tells it not to cancel.
+
+00:04:12.009 --> 00:04:18.474
+So if two pushes land a minute apart, the second one waits its turn instead of killing the first.
+
+00:04:18.474 --> 00:04:25.872
+Then they each push to the same branch one after the other, which is why there's a pull right before that push.
+
+00:04:25.872 --> 00:04:31.804
+And the last step hands the finished folder to Pages, which serves it as a plain website.
+
+00:04:31.804 --> 00:04:34.470
+That's the feed your podcast app checks.
+
+00:04:34.470 --> 00:04:41.335
+So: calendar says run at seven, the lens return in the morning, Godinger till five, and plans at eight.
+
+00:04:41.335 --> 00:04:43.135
+Skip the phone in one line.
+
+00:04:43.135 --> 00:04:48.000
+The answer: about minus one, so nothing clips after the M.P.3 conversion.
+
+00:04:48.000 --> 00:04:49.000
+Stay dry, Ziad.

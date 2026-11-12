@@ -1,0 +1,39 @@
+Morning, Ziad. Thursday the twelfth. The rain day, with a full calendar under it and a late evening on there.
+
+Here's one to chew on while you move. What's the safe ceiling for true peak in a podcast file, and why leave that gap? Answer's at the end.
+
+Weather's the story today. Dry this morning, then rain from late morning, heaviest early afternoon, a lighter patch around five, and steady again from seven into the night. It keeps going through Friday morning and turns cold, close to forty by Friday afternoon. I couldn't pull wind numbers this morning, so check that before you ride.
+
+Okay, the day. Calendar has an easy zone two run at seven, thirty minutes.
+
+There's a lens return on there for the morning, with the time still not set.
+
+Then Godinger, nine to five.
+
+And plans on there at eight tonight. That five o'clock lull is your best window to get home before the rain picks back up.
+
+Alright, news.
+
+One from your corner. Adobe used its MAX conference this week to turn its A.I. helper into something that's always on. It watches what you're working on and jumps in on quick jobs, like cutting out a background or making a video thumbnail. The bigger part for you is a new local connector that lets chatbots like Claude, ChatGPT, and Gemini reach into Photoshop, Illustrator, Premiere, and After Effects directly.
+
+Closer to home. The Agriculture Department proposed a rule that would cut about six point three million people from food stamps. It's only a proposal for now. But New York has one of the biggest food stamp rolls in the country, so this one would land hard in the city if it goes through.
+
+And in Europe, at least four drones drifted into Lithuania, Latvia, and Estonia during Ukrainian strikes on Russia. People got shelter alerts, and nobody was hurt. It lands as NATO reportedly weighs its biggest planning overhaul in about twenty years, shifting its focus toward a possible fight with Russia.
+
+Okay, here's one for the weekend. A new spot called Chyelle, on Cook Street at White Street in Bushwick, is a vintage furniture shop with a cafe inside. It's run by the person behind a big Instagram account about Facebook Marketplace finds, so the stuff is picked. The rooms are set up like living rooms, so you can actually sit in things. Glassware and lamps start around twenty bucks, and Danish walnut chairs run about a hundred and forty each. It's open every day but Tuesday, nine to eight. Worth a slow wander on a cold Saturday, and the rooms alone might give you a few ideas for props and sets.
+
+Today's challenge is for your head. Pick one wait today, a coffee line, a slow elevator, the minute before a call, and leave your phone in your pocket for the whole thing. Just look around. Find three things you've walked past a hundred times and never noticed. It's the same habit that finds a shot before you go looking for one.
+
+Okay, something you've been learning. Remember wiring up the memo so a push renders the audio and updates the feed? Here's what actually happens on GitHub's side after you push, and three small settings in your own setup that make it work.
+
+First, every run gets a brand new machine. GitHub rents you a fresh computer, runs your steps, then throws the whole thing away. Nothing carries over. That's why your workflow installs the audio tool from scratch every single morning. Wasteful, but every run starts clean.
+
+Second, the filter. Your setup only wakes up when something changes in a few folders, like scripts or the tools. So when the bot commits the finished audio afterward, that commit lands in a folder the filter ignores. And on top of that, GitHub won't let a push made by a workflow's own built-in key start another workflow. Two locks, so the bot can't trigger itself in an endless loop.
+
+Third, the line. Your setup puts every render in one group, and tells it not to cancel. So if two pushes land a minute apart, the second one waits its turn instead of killing the first. Then they each push to the same branch one after the other, which is why there's a pull right before that push.
+
+And the last step hands the finished folder to Pages, which serves it as a plain website. That's the feed your podcast app checks.
+
+So: calendar says run at seven, the lens return in the morning, Godinger till five, and plans at eight. Skip the phone in one line. The answer: about minus one, so nothing clips after the M.P.3 conversion.
+
+Stay dry, Ziad.
