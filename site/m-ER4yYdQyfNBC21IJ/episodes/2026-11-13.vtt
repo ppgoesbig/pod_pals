@@ -1,0 +1,217 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:00.968
+Morning, Ziad.
+
+00:00:00.968 --> 00:00:02.489
+Friday the thirteenth.
+
+00:00:02.489 --> 00:00:08.436
+A short workday, a gray cold turn, and a long tail of evening options on the calendar.
+
+00:00:08.436 --> 00:00:10.994
+Here's one to chew on while you move.
+
+00:00:10.994 --> 00:00:18.600
+Why can a voice service get away with twenty-four thousand samples a second, when music uses about forty-four?
+
+00:00:18.600 --> 00:00:19.983
+Answer's at the end.
+
+00:00:19.983 --> 00:00:21.227
+Weather's turning.
+
+00:00:21.227 --> 00:00:30.492
+Last night's rain breaks up into on and off showers today, with a little more this evening, and it's much colder, mid-forties at best.
+
+00:00:30.492 --> 00:00:36.093
+Gusty wind comes in behind it, the start of the coldest air of the season so far.
+
+00:00:36.093 --> 00:00:38.928
+I couldn't get wind numbers this morning.
+
+00:00:38.928 --> 00:00:39.896
+Okay, the day.
+
+00:00:39.896 --> 00:00:43.008
+Calendar has the gym at seven, straight sets.
+
+00:00:43.008 --> 00:00:45.704
+Then Godinger, a half day, nine to one.
+
+00:00:45.704 --> 00:00:47.917
+There's a maybe on there at two.
+
+00:00:47.917 --> 00:00:49.369
+Then a plan at seven.
+
+00:00:49.369 --> 00:00:55.868
+And a beach bonfire from a Partiful invite is on there from eight to ten, if you're up for it.
+
+00:00:55.868 --> 00:01:01.192
+A beach at night in this wind will be properly cold, so that one's your call.
+
+00:01:01.192 --> 00:01:02.160
+Alright, news.
+
+00:01:02.160 --> 00:01:03.543
+The big one at home.
+
+00:01:03.543 --> 00:01:12.739
+A three-story building at Flatbush and Bedford avenues collapsed Wednesday afternoon, after it slid into an excavation pit next door.
+
+00:01:12.739 --> 00:01:19.377
+Eight people died, including two construction workers and two kids, and eighteen more were hurt.
+
+00:01:19.377 --> 00:01:27.190
+The lot next door had a permit to dig a foundation for three stories, and plans for nine had never been approved.
+
+00:01:27.190 --> 00:01:32.999
+The Buildings Department stopped all work there, and the investigation's still open.
+
+00:01:32.999 --> 00:01:34.451
+One from your corner.
+
+00:01:34.451 --> 00:01:41.849
+A startup called Phota Labs put out a free iPhone app that tries to fix the shot itself, not just the edit.
+
+00:01:41.849 --> 00:01:49.178
+Tighten a wide group photo into a portrait, turn a selfie into something that looks like a friend took it.
+
+00:01:49.178 --> 00:01:56.231
+The founders came out of Adobe's computational photography team, the people behind Lightroom features.
+
+00:01:56.231 --> 00:02:00.449
+Every edited image carries an invisible watermark saying A.I.
+
+00:02:00.449 --> 00:02:01.209
+touched it.
+
+00:02:01.209 --> 00:02:02.661
+And oil jumped again.
+
+00:02:02.661 --> 00:02:12.272
+Brent rose about three percent, close to ninety-six dollars a barrel, after reports of two tankers hitting mines near the Strait of Hormuz.
+
+00:02:12.272 --> 00:02:15.107
+Okay, here's one for Sunday or next week.
+
+00:02:15.107 --> 00:02:22.160
+There's a bar on Willoughby Avenue in Bushwick called The Museum, built like a natural history museum.
+
+00:02:22.160 --> 00:02:30.181
+Fossils and crystals in the back, a little insect room, ocean stuff, and right now the special exhibit is dinosaurs.
+
+00:02:30.181 --> 00:02:38.685
+Up front there's a tiny eight-seat counter they call the gift shop, with lighter drinks based on tea, coffee, and pastries.
+
+00:02:38.685 --> 00:02:41.451
+Yes, there are dinosaur chicken nuggets.
+
+00:02:41.451 --> 00:02:44.355
+It opens at five and it's closed Tuesdays.
+
+00:02:44.355 --> 00:02:48.780
+It's a set designer's bar, so go look at how they lit the cases.
+
+00:02:48.780 --> 00:02:51.062
+Today's challenge is a photo one.
+
+00:02:51.062 --> 00:02:53.828
+The streets will be wet between showers.
+
+00:02:53.828 --> 00:02:59.774
+Find one puddle and shoot a reflection in it, a sign, a building, a person walking by.
+
+00:02:59.774 --> 00:03:05.306
+Get low, almost touching the water, and flip the frame upside down in your head.
+
+00:03:05.306 --> 00:03:08.002
+One shot you'd actually keep is enough.
+
+00:03:08.002 --> 00:03:10.561
+Okay, something you've been learning.
+
+00:03:10.561 --> 00:03:14.502
+Remember putting the memo feed behind a long random link?
+
+00:03:14.502 --> 00:03:19.895
+That link works like a password you can't change without changing the address.
+
+00:03:19.895 --> 00:03:22.453
+Today's about the two halves of that.
+
+00:03:22.453 --> 00:03:26.118
+Why guessing it is hopeless, and how it leaks anyway.
+
+00:03:26.118 --> 00:03:27.778
+Start with the guessing.
+
+00:03:27.778 --> 00:03:31.442
+Say the random part is twenty-two letters and digits.
+
+00:03:31.442 --> 00:03:33.793
+Each spot has about sixty choices.
+
+00:03:33.793 --> 00:03:38.149
+Multiply that out and you get a number with about forty digits.
+
+00:03:38.149 --> 00:03:44.994
+Even a machine trying a billion links a second would need way longer than the universe has existed.
+
+00:03:44.994 --> 00:03:46.446
+Nobody's guessing it.
+
+00:03:46.446 --> 00:03:50.249
+So the real risk is the link getting carried somewhere.
+
+00:03:50.249 --> 00:03:51.425
+Three quiet ways.
+
+00:03:51.425 --> 00:03:52.393
+One, previews.
+
+00:03:52.393 --> 00:03:58.408
+Paste the link into a chat app, and the app's server visits it to build a preview card.
+
+00:03:58.408 --> 00:04:02.004
+Now a company you didn't think about has fetched it.
+
+00:04:02.004 --> 00:04:03.525
+Two, logs and history.
+
+00:04:03.525 --> 00:04:11.131
+Your browser history, a synced browser on another device, and the server's own logs all keep the full address.
+
+00:04:11.131 --> 00:04:14.519
+Any of them can end up somewhere you didn't mean.
+
+00:04:14.519 --> 00:04:15.833
+Three, directories.
+
+00:04:15.833 --> 00:04:21.364
+Some podcast apps pass the feeds people add along to public podcast directories.
+
+00:04:21.364 --> 00:04:25.582
+Add a private feed to one of those, and it can end up listed.
+
+00:04:25.582 --> 00:04:28.624
+That's why the rule from before still holds.
+
+00:04:28.624 --> 00:04:33.049
+The link is only as secret as the least careful place it's been.
+
+00:04:33.049 --> 00:04:36.991
+If it shows up somewhere it shouldn't, swap in a new one.
+
+00:04:36.991 --> 00:04:44.527
+So: calendar says gym at seven, Godinger till one, a maybe at two, a plan at seven, and the bonfire at eight.
+
+00:04:44.527 --> 00:04:45.564
+Shoot a puddle.
+
+00:04:45.564 --> 00:04:52.271
+The answer: you need two samples per wave, and a voice's useful sound sits under twelve thousand.
+
+00:04:52.271 --> 00:04:54.000
+Have a good Friday, Ziad.

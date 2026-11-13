@@ -1,0 +1,43 @@
+Morning, Ziad. Friday the thirteenth. A short workday, a gray cold turn, and a long tail of evening options on the calendar.
+
+Here's one to chew on while you move. Why can a voice service get away with twenty-four thousand samples a second, when music uses about forty-four? Answer's at the end.
+
+Weather's turning. Last night's rain breaks up into on and off showers today, with a little more this evening, and it's much colder, mid-forties at best. Gusty wind comes in behind it, the start of the coldest air of the season so far. I couldn't get wind numbers this morning.
+
+Okay, the day. Calendar has the gym at seven, straight sets.
+
+Then Godinger, a half day, nine to one.
+
+There's a maybe on there at two. Then a plan at seven.
+
+And a beach bonfire from a Partiful invite is on there from eight to ten, if you're up for it. A beach at night in this wind will be properly cold, so that one's your call.
+
+Alright, news.
+
+The big one at home. A three-story building at Flatbush and Bedford avenues collapsed Wednesday afternoon, after it slid into an excavation pit next door. Eight people died, including two construction workers and two kids, and eighteen more were hurt. The lot next door had a permit to dig a foundation for three stories, and plans for nine had never been approved. The Buildings Department stopped all work there, and the investigation's still open.
+
+One from your corner. A startup called Phota Labs put out a free iPhone app that tries to fix the shot itself, not just the edit. Tighten a wide group photo into a portrait, turn a selfie into something that looks like a friend took it. The founders came out of Adobe's computational photography team, the people behind Lightroom features. Every edited image carries an invisible watermark saying A.I. touched it.
+
+And oil jumped again. Brent rose about three percent, close to ninety-six dollars a barrel, after reports of two tankers hitting mines near the Strait of Hormuz.
+
+Okay, here's one for Sunday or next week. There's a bar on Willoughby Avenue in Bushwick called The Museum, built like a natural history museum. Fossils and crystals in the back, a little insect room, ocean stuff, and right now the special exhibit is dinosaurs. Up front there's a tiny eight-seat counter they call the gift shop, with lighter drinks based on tea, coffee, and pastries. Yes, there are dinosaur chicken nuggets. It opens at five and it's closed Tuesdays. It's a set designer's bar, so go look at how they lit the cases.
+
+Today's challenge is a photo one. The streets will be wet between showers. Find one puddle and shoot a reflection in it, a sign, a building, a person walking by. Get low, almost touching the water, and flip the frame upside down in your head. One shot you'd actually keep is enough.
+
+Okay, something you've been learning. Remember putting the memo feed behind a long random link? That link works like a password you can't change without changing the address. Today's about the two halves of that. Why guessing it is hopeless, and how it leaks anyway.
+
+Start with the guessing. Say the random part is twenty-two letters and digits. Each spot has about sixty choices. Multiply that out and you get a number with about forty digits. Even a machine trying a billion links a second would need way longer than the universe has existed. Nobody's guessing it.
+
+So the real risk is the link getting carried somewhere. Three quiet ways.
+
+One, previews. Paste the link into a chat app, and the app's server visits it to build a preview card. Now a company you didn't think about has fetched it.
+
+Two, logs and history. Your browser history, a synced browser on another device, and the server's own logs all keep the full address. Any of them can end up somewhere you didn't mean.
+
+Three, directories. Some podcast apps pass the feeds people add along to public podcast directories. Add a private feed to one of those, and it can end up listed.
+
+That's why the rule from before still holds. The link is only as secret as the least careful place it's been. If it shows up somewhere it shouldn't, swap in a new one.
+
+So: calendar says gym at seven, Godinger till one, a maybe at two, a plan at seven, and the bonfire at eight. Shoot a puddle. The answer: you need two samples per wave, and a voice's useful sound sits under twelve thousand.
+
+Have a good Friday, Ziad.
