@@ -1,0 +1,39 @@
+Morning, Ziad. Saturday the fourteenth. A cold, dry one, with a hard start, a slow breakfast, and a few hours of clay in the afternoon.
+
+Here's one to chew on while you move. When you skip to minute three of a podcast, how does your phone avoid downloading the first three minutes? Answer's at the end.
+
+Weather's dry but cold, the chilliest day since March. Low forties this morning, upper forties at best, with a northwest wind around ten to fifteen that picks up in the afternoon. The forecast I found was from yesterday, so treat the numbers as rough.
+
+Okay, the day. Calendar has four by four intervals at seven.
+
+Then breakfast on there at nine.
+
+And a mug-making class from one-thirty to four. The evening's open after that.
+
+Alright, news. Just two today.
+
+Flights across the whole country got grounded Friday. The F.A.A. called a nationwide ground stop after a communications failure hit air traffic control centers. Here's the twist. Federal officials are now checking whether a new A.I. routing system played a part. It's called SMART, and it started rolling out in September. It reroutes planes using live weather, congestion, and flight paths. Officials stress it's a telecom problem, there's no threat to anyone, and nobody has shown the A.I. caused it. But it's one of the first times a government A.I. system has landed in the middle of a failure this big.
+
+And one about a tool you might use. Notion says a problem at one of its outside A.I. vendors, a company called Fireworks, exposed some A.I. chat transcripts. Notion says it hit fewer than one percent of workspaces. It cut off the vendor, shut down the feature involved, and revoked any keys that leaked. The bigger lesson is quieter. When an app adds A.I., your stuff often passes through companies you've never heard of.
+
+Okay, here's one for later this week. Bushwick Gallery has an opening on Thursday the nineteenth, from four to eight. It's a solo show by an artist named Miles Forminard, called Introduction, and the gallery pitches it as all about line and space. The show runs through early December. They say visits are usually by appointment, so the opening is the easy way to just walk in. After an afternoon shaping a mug, it's a good week to go look at how someone else handles shape on a flat wall.
+
+Today's challenge is a social one. At the class this afternoon, ask one person how they got into it. Not small talk, the real story. Then actually listen to the answer, all the way through. People who make things with their hands usually have a good one, and it's an easy way to leave a room knowing one more person.
+
+Okay, something new today, and it's right in your lane. How a camera sensor actually sees color, because it mostly doesn't.
+
+Each pixel on a sensor only measures how much light hits it. Brightness, nothing else. To get color, there's a tiny grid of colored filters laid over the top. Red, green, or blue, one filter per pixel. It's called a Bayer pattern, and it repeats in little squares of four. One red, one blue, and two greens.
+
+Why two greens? Your eyes pick up most of their detail from green light. So the sensor spends twice as much on it.
+
+That means every single pixel only knows one color. A red pixel has no idea how much green or blue landed on it. So the camera guesses. It looks at the neighbors and fills in the two missing colors for every pixel. That step is called demosaicing. Two-thirds of the color in every photo you take is an educated guess.
+
+Usually the guess is great. Where it breaks is fine repeating detail. A tight weave, a grille, finely engraved silver. The pattern gets close to the size of the filter grid, the guess gets confused, and you see rainbow shimmer that isn't there. That's moire.
+
+A raw file stores the mosaic before the guess. That's partly why two raw editors can render the same file a little differently.
+
+And here's the trick for still product work. Some cameras have a pixel shift mode. The sensor nudges itself one pixel at a time between shots, so every spot gets measured in red, green, and blue for real. No guessing, cleaner color, and the shimmer on fine detail mostly goes away. It only works when nothing moves, which a piece of silverware on a table is great at.
+
+So: calendar says intervals at seven, breakfast at nine, and the mug class at one-thirty. Ask someone their story. The answer: it asks the server for just that slice of bytes, called a range request.
+
+Have a good Saturday, Ziad.
