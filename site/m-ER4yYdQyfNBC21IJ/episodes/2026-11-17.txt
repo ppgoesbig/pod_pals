@@ -1,0 +1,37 @@
+Morning, Ziad. Tuesday the seventeenth. A clear, quiet one, with a plain workday on the calendar and an easy evening.
+
+Here's one to chew on while you move. Why does a camera sensor use two green filters for every red and every blue? Answer's at the end.
+
+Weather's nothing to plan around. Sunny and dry, a cold start near forty, up to the upper fifties, with only a light west breeze. It stays sunny and keeps warming through Friday.
+
+Okay, the day. Calendar has an easy zone two run at seven, thirty minutes.
+
+Then Godinger, nine to five.
+
+There's a call at five on your keep-an-eye-on calendar, the one for things that aren't really yours. Past that, the evening's open.
+
+Alright, news.
+
+One from your corner. Relight is now out of beta and in the full version of Photoshop. It lets you add up to three virtual lights to a photo after you've taken it, and they sit on their own layer, so you can switch them off. The Remove tool got smarter too. Take out an object, and it now takes the shadow and the reflection with it. On shiny product shots, that second part could save real time.
+
+A big one for A.I. tools. OpenAI launched something called ChatGPT Wallet, which lets its A.I. agent actually buy things for you. You add a card once, then approve every purchase with your face or fingerprint. The agent and the store never see the card number. It's built with Visa, Mastercard, and American Express, and for now it's only for people on the top paid plan in the U.S. Expect a lot of arguing about who pays when it buys the wrong thing.
+
+And an update on Friday's grounded flights, since we now know more. The full stop lasted about four hours, and more than twelve thousand flights got canceled over the weekend. The Transportation Secretary is blaming a maintenance contractor, not the new A.I. routing system people were asking about. He wants another fifty billion dollars from Congress for air traffic control. Democrats say about twelve and a half billion was already approved, and only around one billion of it has been spent.
+
+Okay, here's one for next Monday. There's a figure drawing night in a studio building on Jefferson Street in Bushwick, Monday the twenty-third at seven-thirty. It's ten bucks, and it looks like it runs most Mondays. Drawing a live model for an evening is a sneaky good lighting lesson. You spend two hours watching exactly how light wraps around a body, and you don't need to be good at drawing to get that out of it.
+
+Today's challenge is a social one. Think of someone you haven't talked to in a few months, and send them one specific memory. Not "hey, how are you". Something like, remember that time we got lost looking for that bar. Specific memories get real replies, and it takes thirty seconds once you're home.
+
+Okay, something you've been learning. Remember setting the memo's audio to that target loudness? You already know how loudness gets measured, and why there's a ceiling on peaks. Today's the other half. Why the loud and quiet parts inside one episode matter more than the overall number, especially for you, right now, with one earbud in.
+
+There's a measurement for that spread, called loudness range. It's the gap between the quieter stretches and the louder stretches of a recording, in the same units as the loudness target. A film can swing from whispers to explosions. On a street, the whispers vanish under a bus, so you turn it up, and then the explosion hits.
+
+For listening on the move, you want a narrow range. Everything sits in a tight band, so one volume setting works the whole way through.
+
+The tool that does that is a compressor. You set a threshold, and anything louder than it gets turned down by a ratio. Two to one means for every two steps over the line, only one comes through. Then you raise the whole thing back up, so the quiet parts end up closer to the loud ones.
+
+Here's the nice part for the memo. A T.T.S. voice is already very even. No one leans away from the mic or laughs too loud. So it barely needs compressing, which is part of why it's easy to hear over traffic. Normalization just sets the overall level, and the voice was steady to begin with.
+
+So: calendar says run at seven and Godinger till five, then a free night. Send someone a memory. The answer: your eyes pull most of their detail from green, so the sensor spends double on it.
+
+Have a good Tuesday, Ziad.
