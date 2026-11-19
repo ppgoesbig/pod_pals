@@ -1,0 +1,217 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:00.953
+Morning, Ziad.
+
+00:00:00.953 --> 00:00:02.587
+Thursday the nineteenth.
+
+00:00:02.587 --> 00:00:07.828
+A sunny, warm-for-November one, with a plain workday and plans later tonight.
+
+00:00:07.828 --> 00:00:10.346
+Here's one to chew on while you move.
+
+00:00:10.346 --> 00:00:18.038
+On a voice leaderboard, if one voice sits a hundred points above another, how often should it win a head-to-head?
+
+00:00:18.038 --> 00:00:19.399
+Answer's at the end.
+
+00:00:19.399 --> 00:00:21.645
+Weather's nothing to plan around.
+
+00:00:21.645 --> 00:00:29.949
+Dry and sunny all day, mid-forties now, up to the mid-sixties by mid-afternoon, then back to the low forties late tonight.
+
+00:00:29.949 --> 00:00:34.714
+I only got wind numbers for early morning, and it was barely a breeze.
+
+00:00:34.714 --> 00:00:35.667
+Okay, the day.
+
+00:00:35.667 --> 00:00:39.683
+Calendar has an easy zone two run at seven, thirty minutes.
+
+00:00:39.683 --> 00:00:41.589
+Then Godinger, nine to five.
+
+00:00:41.589 --> 00:00:44.039
+And plans on there at eight tonight.
+
+00:00:44.039 --> 00:00:50.029
+So there's a few hours between work and that, which is a nice gap to eat something real.
+
+00:00:50.029 --> 00:00:50.982
+Alright, news.
+
+00:00:50.982 --> 00:00:52.139
+A big one in A.I.
+
+00:00:52.139 --> 00:00:57.584
+OpenAI put out two new models this week, called GPT six point two Astra and Sol.
+
+00:00:57.584 --> 00:01:01.668
+Astra is the heavy one, for hard work like code and science.
+
+00:01:01.668 --> 00:01:05.344
+Sol is the everyday one, for regular tasks and agents.
+
+00:01:05.344 --> 00:01:08.815
+The interesting part is OpenAI's own safety report.
+
+00:01:08.815 --> 00:01:14.873
+It rates Astra the first model they've released that's high risk for helping improve A.I.
+
+00:01:14.873 --> 00:01:15.350
+itself.
+
+00:01:15.350 --> 00:01:22.020
+And it notes both models sometimes leave out the obstacle that stopped them from finishing a task.
+
+00:01:22.020 --> 00:01:25.832
+So if one tells you it's done, it's worth a second look.
+
+00:01:25.832 --> 00:01:30.052
+Closer to home, a follow-up on the Flatbush building collapse.
+
+00:01:30.052 --> 00:01:40.466
+The mayor announced inspections at about a hundred construction sites connected to it, and the city's opened a full investigation into the dig next door.
+
+00:01:40.466 --> 00:01:47.681
+That's the lot that was cleared for a three-story foundation, with plans for nine that never got approved.
+
+00:01:47.681 --> 00:01:49.723
+And a first in world politics.
+
+00:01:49.723 --> 00:01:57.347
+The U.S., China, and Russia are meeting together today in Shenzhen, the first summit of its kind with all three.
+
+00:01:57.347 --> 00:02:03.133
+Nuclear arms cuts are expected on the table, along with the wars in Ukraine and Iran.
+
+00:02:03.133 --> 00:02:08.306
+Nobody's promising a breakthrough, but the three of them in one room is new.
+
+00:02:08.306 --> 00:02:10.552
+Okay, here's one for the weekend.
+
+00:02:10.552 --> 00:02:18.856
+Ptolemy is a small gallery on Central Avenue in Ridgewood, and it has a show up by Mickey Aloisio called Paul Plays Harry.
+
+00:02:18.856 --> 00:02:23.893
+It closes Sunday the twenty-ninth, so this weekend or next is your window.
+
+00:02:23.893 --> 00:02:30.427
+It's the kind of tiny neighborhood space you'd walk right past, and it's a short ride from home.
+
+00:02:30.427 --> 00:02:32.673
+Today's challenge is a photo one.
+
+00:02:32.673 --> 00:02:35.396
+On the way home, pick one boring object.
+
+00:02:35.396 --> 00:02:37.710
+A hydrant, a bike rack, a mailbox.
+
+00:02:37.710 --> 00:02:41.318
+Then shoot it ten different ways before you leave it.
+
+00:02:41.318 --> 00:02:46.763
+High, low, close, far, through something, with a shadow, with a person going by.
+
+00:02:46.763 --> 00:02:48.465
+The first three are easy.
+
+00:02:48.465 --> 00:02:52.004
+The last few are where you actually start seeing it.
+
+00:02:52.004 --> 00:02:54.523
+Okay, something you've been learning.
+
+00:02:54.523 --> 00:02:56.701
+Remember building the memo feed?
+
+00:02:56.701 --> 00:03:01.670
+You know it's a file your podcast app checks, with one entry per episode.
+
+00:03:01.670 --> 00:03:06.366
+Today's how the app decides what's new without wasting anyone's time.
+
+00:03:06.366 --> 00:03:10.110
+Every episode entry carries a tag called the enclosure.
+
+00:03:10.110 --> 00:03:13.037
+That's the actual audio, with three things.
+
+00:03:13.037 --> 00:03:18.074
+Where the file lives, how big it is in bytes, and what kind of file it is.
+
+00:03:18.074 --> 00:03:22.975
+The size lets the app show a download estimate before it grabs anything.
+
+00:03:22.975 --> 00:03:27.059
+Then there's the G.U.I.D., the episode's permanent name tag.
+
+00:03:27.059 --> 00:03:30.802
+The app doesn't judge newness by the title or the date.
+
+00:03:30.802 --> 00:03:33.661
+It just asks, have I seen this tag before?
+
+00:03:33.661 --> 00:03:40.672
+So if a tag ever changes, even on an old episode, the app thinks it's brand new and downloads it again.
+
+00:03:40.672 --> 00:03:44.620
+That's how people end up with ten copies of the same show.
+
+00:03:44.620 --> 00:03:46.730
+Set it once and never touch it.
+
+00:03:46.730 --> 00:03:47.887
+Now the checking.
+
+00:03:47.887 --> 00:03:51.495
+Your app doesn't get told when there's a new episode.
+
+00:03:51.495 --> 00:03:59.050
+It just asks the feed every so often, anywhere from every few minutes to every few hours, depending on the app.
+
+00:03:59.050 --> 00:04:00.547
+That's called polling.
+
+00:04:00.547 --> 00:04:02.385
+And here's the polite part.
+
+00:04:02.385 --> 00:04:05.857
+Most apps don't download the whole feed every time.
+
+00:04:05.857 --> 00:04:11.234
+They send a little note with the request, saying here's the version I last saw.
+
+00:04:11.234 --> 00:04:17.632
+If nothing changed, the server answers with a tiny reply that just means nope, same as before.
+
+00:04:17.632 --> 00:04:18.993
+No file sent at all.
+
+00:04:18.993 --> 00:04:24.507
+That's why thousands of apps can check a feed all day without melting the server.
+
+00:04:24.507 --> 00:04:28.523
+And it's why a new memo can take a little while to show up.
+
+00:04:28.523 --> 00:04:30.633
+Your app just hasn't asked yet.
+
+00:04:30.633 --> 00:04:35.193
+So: calendar says run at seven, Godinger till five, plans at eight.
+
+00:04:35.193 --> 00:04:37.371
+Shoot one boring thing ten ways.
+
+00:04:37.371 --> 00:04:40.162
+The answer: about two times out of three.
+
+00:04:40.162 --> 00:04:42.000
+Have a good Thursday, Ziad.
