@@ -12,15 +12,14 @@
     "direction": ""
   },
   "samples": [
-    {"label": "Qwen Audio 3.0 Plus (voice A)", "model": "qwen/qwen-audio-3.0-tts-plus", "voice": "longanlingxin"},
-    {"label": "Qwen Audio 3.0 Plus (voice B)", "model": "qwen/qwen-audio-3.0-tts-plus", "voice": "longanlufeng"},
-    {"label": "Gemini 3.8 Flash TTS (Charon)", "model": "google/gemini-3.8-flash-tts", "voice": "Charon"},
-    {"label": "Gemini 3.8 Flash TTS (Aoede)", "model": "google/gemini-3.8-flash-tts", "voice": "Aoede"},
-    {"label": "MAI-Voice-2.1 (Jasper)", "model": "microsoft/mai-voice-2.1", "voice": "en-US-Jasper:MAI-Voice-2.1"},
-    {"label": "MAI-Voice-2.1 (Harper)", "model": "microsoft/mai-voice-2.1", "voice": "en-US-Harper:MAI-Voice-2.1"},
-    {"label": "Eleven v4 (George)", "model": "elevenlabs/eleven-v4", "voice": "george"},
-    {"label": "Eleven v4 (Sarah)", "model": "elevenlabs/eleven-v4", "voice": "sarah"},
-    {"label": "Eleven v4 (George, relaxed)", "model": "elevenlabs/eleven-v4", "voice": "george", "direction": "[relaxed, warm, unhurried]"},
-    {"label": "Eleven v4 (George, easygoing friend)", "model": "elevenlabs/eleven-v4", "voice": "george", "direction": "[casual, easygoing, like talking to a friend on a walk]"}
+    {"label": "Eleven v4 (George, current)", "model": "elevenlabs/eleven-v4", "voice": "george"},
+    {"label": "Simba 3.5 (Henry)", "model": "speechify/simba-3.5", "voice": "henry"},
+    {"label": "Simba 3.5 (Carly)", "model": "speechify/simba-3.5", "voice": "carly"},
+    {"label": "Eleven v4 Turbo (Roger)", "model": "elevenlabs/eleven-v4-turbo", "voice": "roger"},
+    {"label": "Eleven v4 Turbo (Chris)", "model": "elevenlabs/eleven-v4-turbo", "voice": "chris"},
+    {"label": "Eleven v4 Turbo (River)", "model": "elevenlabs/eleven-v4-turbo", "voice": "river"},
+    {"label": "Eleven v4 Turbo (Jessica)", "model": "elevenlabs/eleven-v4-turbo", "voice": "jessica"},
+    {"label": "Fish Audio Drama 3 (default voice, relaxed)", "model": "fish-audio/drama-3", "voice": "", "direction": "[relaxed and warm, like a friend on a morning walk]"},
+    {"label": "Gemini 3.8 Flash TTS (Umbriel)", "model": "google/gemini-3.8-flash-tts", "voice": "Umbriel"}
   ]
 }

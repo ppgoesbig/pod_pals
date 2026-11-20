@@ -82,8 +82,12 @@ def tts(text: str, model: str, voice: str):
     if not key:
         sys.exit("OPENROUTER_API_KEY is not set")
     fmt = "pcm" if model.startswith(PCM_ONLY) else "mp3"
-    body = json.dumps({"model": model, "input": text, "voice": voice,
-                       "response_format": fmt}).encode()
+    def payload(fmt):
+        d = {"model": model, "input": text, "response_format": fmt}
+        if voice:                     # empty voice = the model's default voice
+            d["voice"] = voice
+        return json.dumps(d).encode()
+    body = payload(fmt)
     for attempt in range(4):
         req = urllib.request.Request(API, data=body, headers={
             "Authorization": f"Bearer {key}",
@@ -101,8 +105,7 @@ def tts(text: str, model: str, voice: str):
             msg = e.read().decode(errors="replace")[:400]
             if e.code == 400 and fmt == "mp3" and '"pcm"' in msg:
                 fmt = "pcm"
-                body = json.dumps({"model": model, "input": text, "voice": voice,
-                                   "response_format": fmt}).encode()
+                body = payload(fmt)
                 continue
             if e.code in (429, 500, 502, 503, 504) and attempt < 3:
                 time.sleep(5 * 2 ** attempt)
