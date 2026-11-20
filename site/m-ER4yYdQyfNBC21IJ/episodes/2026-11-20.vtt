@@ -1,0 +1,217 @@
+WEBVTT
+
+00:00:00.000 --> 00:00:00.958
+Morning, Ziad.
+
+00:00:00.958 --> 00:00:02.396
+Friday the twentieth.
+
+00:00:02.396 --> 00:00:08.076
+A warm, sunny one, with a short work block on the calendar and a late plan tonight.
+
+00:00:08.076 --> 00:00:10.609
+Here's one to chew on while you move.
+
+00:00:10.609 --> 00:00:17.796
+With a two to one compressor, if a sound goes four steps over the threshold, how many steps come through?
+
+00:00:17.796 --> 00:00:19.165
+Answer's at the end.
+
+00:00:19.165 --> 00:00:20.602
+Weather's easy today.
+
+00:00:20.602 --> 00:00:27.241
+Sunny and dry, mid-forties now, up to the upper sixties by early afternoon, with barely a breeze.
+
+00:00:27.241 --> 00:00:38.261
+Saturday stays dry too, but a coastal storm could bring heavy rain and wind from late Sunday into Monday, and then it turns sharply colder ahead of Thanksgiving.
+
+00:00:38.261 --> 00:00:39.219
+Okay, the day.
+
+00:00:39.219 --> 00:00:42.299
+Calendar has the gym at seven, straight sets.
+
+00:00:42.299 --> 00:00:44.557
+Then work from home, nine to one.
+
+00:00:44.557 --> 00:00:49.075
+There's a video call on there at one-thirty, just fifteen minutes.
+
+00:00:49.075 --> 00:00:51.470
+And plans on there at nine tonight.
+
+00:00:51.470 --> 00:00:57.630
+So the whole afternoon and early evening are open, on maybe the last warm day for a while.
+
+00:00:57.630 --> 00:00:58.589
+Alright, news.
+
+00:00:58.589 --> 00:00:59.958
+The big money story.
+
+00:00:59.958 --> 00:01:02.285
+Anthropic went public on Thursday.
+
+00:01:02.285 --> 00:01:10.361
+Shares priced at eighty-three dollars, above the range it had pitched, and it raised about eighty-one billion dollars.
+
+00:01:10.361 --> 00:01:14.605
+That puts the whole company at around one and a half trillion.
+
+00:01:14.605 --> 00:01:17.069
+It trades on the Nasdaq under A.N.T.
+
+00:01:17.069 --> 00:01:24.118
+It's one of the biggest stock debuts ever, and it's a real test of how much people will pay for an A.I.
+
+00:01:24.118 --> 00:01:26.240
+lab before the profits show up.
+
+00:01:26.240 --> 00:01:27.678
+One from your corner.
+
+00:01:27.678 --> 00:01:31.716
+Ideogram put out version four point six of its image model.
+
+00:01:31.716 --> 00:01:41.093
+It now makes images at full four K, and it's better at precise edits, where you change one thing and leave the rest of the picture alone.
+
+00:01:41.093 --> 00:01:46.226
+Ideogram says it's now first on a leaderboard for multi-step image editing.
+
+00:01:46.226 --> 00:01:50.264
+That claim's only from Ideogram so far, so take it loosely.
+
+00:01:50.264 --> 00:01:52.865
+And the summit in Shenzhen wrapped up.
+
+00:01:52.865 --> 00:01:57.383
+Trump, Xi, and Putin put out what they called a peace declaration.
+
+00:01:57.383 --> 00:02:06.349
+They agreed a nuclear war can't be won and must never be fought, and promised to keep talking about nuclear risk, with no timeline.
+
+00:02:06.349 --> 00:02:12.098
+There was nothing about actually cutting weapons, and nothing about Ukraine or Iran.
+
+00:02:12.098 --> 00:02:15.726
+Putin said himself that nobody's forced to follow it.
+
+00:02:15.726 --> 00:02:17.368
+So it's mostly symbolic.
+
+00:02:17.368 --> 00:02:22.228
+Okay, here's one for next week, or Sunday night once the rain comes in.
+
+00:02:22.228 --> 00:02:28.799
+There's a new movie theater on Troutman Street, near Knickerbocker, that only plays short films.
+
+00:02:28.799 --> 00:02:31.194
+It's in the old Mad Tropical space.
+
+00:02:31.194 --> 00:02:37.080
+One screen in the back, a late-night cafe up front, and the lineup changes every week.
+
+00:02:37.080 --> 00:02:43.309
+You pay by how many shorts you watch, and the owner says nothing costs more than ten bucks.
+
+00:02:43.309 --> 00:02:46.457
+No bar, though, so it's coffee, not cocktails.
+
+00:02:46.457 --> 00:02:48.785
+Today's challenge is a making one.
+
+00:02:48.785 --> 00:02:52.207
+Fix one small broken thing at home this afternoon.
+
+00:02:52.207 --> 00:02:57.819
+A loose cabinet hinge, a wobbly chair leg, a button that's hanging on by a thread.
+
+00:02:57.819 --> 00:03:01.310
+Pick the one you've been stepping around for weeks.
+
+00:03:01.310 --> 00:03:03.979
+Ten minutes, whatever tools you've got.
+
+00:03:03.979 --> 00:03:09.386
+It's a small win, and it clears a tiny bit of background noise from your place.
+
+00:03:09.386 --> 00:03:11.919
+Okay, something you've been learning.
+
+00:03:11.919 --> 00:03:17.189
+Remember wiring up the memo so a push renders the audio and updates the feed?
+
+00:03:17.189 --> 00:03:21.638
+Today's what actually happens in the few minutes after that push.
+
+00:03:21.638 --> 00:03:25.197
+First, GitHub hands the job to a brand new computer.
+
+00:03:25.197 --> 00:03:28.072
+Not a server that's sitting there waiting.
+
+00:03:28.072 --> 00:03:33.684
+A fresh, empty Linux machine, made just for this run, and thrown away right after.
+
+00:03:33.684 --> 00:03:39.639
+That's why the memo's recipe installs the audio tool from scratch every single morning.
+
+00:03:39.639 --> 00:03:42.103
+Nothing carries over from yesterday.
+
+00:03:42.103 --> 00:03:43.198
+Second, the key.
+
+00:03:43.198 --> 00:03:46.210
+The voice service key is stored as a secret.
+
+00:03:46.210 --> 00:03:52.506
+The machine can use it, but if it ever shows up in the log, GitHub blanks it out with stars.
+
+00:03:52.506 --> 00:04:00.446
+And the recipe checks the key is there before doing any real work, so a missing key fails fast, not halfway through.
+
+00:04:00.446 --> 00:04:01.610
+Third, a line up.
+
+00:04:01.610 --> 00:04:04.827
+The recipe says only one render runs at a time.
+
+00:04:04.827 --> 00:04:11.192
+If two pushes land close together, the second one waits its turn instead of racing the first.
+
+00:04:11.192 --> 00:04:16.394
+Otherwise two runs could both try to save the feed and trip over each other.
+
+00:04:16.394 --> 00:04:17.215
+Last, Pages.
+
+00:04:17.215 --> 00:04:23.170
+The finished folder, the audio and the feed, gets packed up and handed to GitHub Pages.
+
+00:04:23.170 --> 00:04:24.949
+Pages is just a file host.
+
+00:04:24.949 --> 00:04:26.250
+No code runs there.
+
+00:04:26.250 --> 00:04:33.094
+It serves copies through servers all over the world, and those copies can hang on for a few minutes.
+
+00:04:33.094 --> 00:04:37.338
+So a new episode can be live and still not show up right away.
+
+00:04:37.338 --> 00:04:43.703
+So: calendar says gym at seven, work till one, a quick call at one-thirty, and plans at nine.
+
+00:04:43.703 --> 00:04:45.140
+Fix one broken thing.
+
+00:04:45.140 --> 00:04:48.289
+The answer: two steps, half of what went over.
+
+00:04:48.289 --> 00:04:50.000
+Have a good Friday, Ziad.

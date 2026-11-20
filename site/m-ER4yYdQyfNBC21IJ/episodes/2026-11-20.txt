@@ -1,0 +1,39 @@
+Morning, Ziad. Friday the twentieth. A warm, sunny one, with a short work block on the calendar and a late plan tonight.
+
+Here's one to chew on while you move. With a two to one compressor, if a sound goes four steps over the threshold, how many steps come through? Answer's at the end.
+
+Weather's easy today. Sunny and dry, mid-forties now, up to the upper sixties by early afternoon, with barely a breeze. Saturday stays dry too, but a coastal storm could bring heavy rain and wind from late Sunday into Monday, and then it turns sharply colder ahead of Thanksgiving.
+
+Okay, the day. Calendar has the gym at seven, straight sets.
+
+Then work from home, nine to one.
+
+There's a video call on there at one-thirty, just fifteen minutes.
+
+And plans on there at nine tonight. So the whole afternoon and early evening are open, on maybe the last warm day for a while.
+
+Alright, news.
+
+The big money story. Anthropic went public on Thursday. Shares priced at eighty-three dollars, above the range it had pitched, and it raised about eighty-one billion dollars. That puts the whole company at around one and a half trillion. It trades on the Nasdaq under A.N.T. It's one of the biggest stock debuts ever, and it's a real test of how much people will pay for an A.I. lab before the profits show up.
+
+One from your corner. Ideogram put out version four point six of its image model. It now makes images at full four K, and it's better at precise edits, where you change one thing and leave the rest of the picture alone. Ideogram says it's now first on a leaderboard for multi-step image editing. That claim's only from Ideogram so far, so take it loosely.
+
+And the summit in Shenzhen wrapped up. Trump, Xi, and Putin put out what they called a peace declaration. They agreed a nuclear war can't be won and must never be fought, and promised to keep talking about nuclear risk, with no timeline. There was nothing about actually cutting weapons, and nothing about Ukraine or Iran. Putin said himself that nobody's forced to follow it. So it's mostly symbolic.
+
+Okay, here's one for next week, or Sunday night once the rain comes in. There's a new movie theater on Troutman Street, near Knickerbocker, that only plays short films. It's in the old Mad Tropical space. One screen in the back, a late-night cafe up front, and the lineup changes every week. You pay by how many shorts you watch, and the owner says nothing costs more than ten bucks. No bar, though, so it's coffee, not cocktails.
+
+Today's challenge is a making one. Fix one small broken thing at home this afternoon. A loose cabinet hinge, a wobbly chair leg, a button that's hanging on by a thread. Pick the one you've been stepping around for weeks. Ten minutes, whatever tools you've got. It's a small win, and it clears a tiny bit of background noise from your place.
+
+Okay, something you've been learning. Remember wiring up the memo so a push renders the audio and updates the feed? Today's what actually happens in the few minutes after that push.
+
+First, GitHub hands the job to a brand new computer. Not a server that's sitting there waiting. A fresh, empty Linux machine, made just for this run, and thrown away right after. That's why the memo's recipe installs the audio tool from scratch every single morning. Nothing carries over from yesterday.
+
+Second, the key. The voice service key is stored as a secret. The machine can use it, but if it ever shows up in the log, GitHub blanks it out with stars. And the recipe checks the key is there before doing any real work, so a missing key fails fast, not halfway through.
+
+Third, a line up. The recipe says only one render runs at a time. If two pushes land close together, the second one waits its turn instead of racing the first. Otherwise two runs could both try to save the feed and trip over each other.
+
+Last, Pages. The finished folder, the audio and the feed, gets packed up and handed to GitHub Pages. Pages is just a file host. No code runs there. It serves copies through servers all over the world, and those copies can hang on for a few minutes. So a new episode can be live and still not show up right away.
+
+So: calendar says gym at seven, work till one, a quick call at one-thirty, and plans at nine. Fix one broken thing. The answer: two steps, half of what went over.
+
+Have a good Friday, Ziad.
