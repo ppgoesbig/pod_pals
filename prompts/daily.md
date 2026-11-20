@@ -19,17 +19,30 @@ Talk like a friend who's already looked at his day: relaxed, warm, a little dry.
    - News: two or three stories actually worth knowing. Lean toward A.I. and tools he'd use, photography and design, NYC, and major world news. Skip celebrity and outrage bait. Search; don't rely on memory.
      - Must be new to him: read the News sections of the last seven scripts and skip any story, product, or feature already covered, even if it's still in the headlines. Only bring a repeat back if there's a real new development, and say what changed.
      - Keep it balanced: at most one story about any single company, and don't default to Anthropic or any one A.I. lab. If several A.I. stories are big, pick the one that matters most to him and spread the rest across topics.
-   - Around you: one real thing in or near Bushwick or North Brooklyn worth planning for, at least two days out. Same-day is too late to plan. Good picks: something this weekend or next week, a new opening (a shop, cafe, bar, gallery, studio), a lesser-known spot or recurring thing he probably hasn't heard of. Say the day, and a price if it matters. Avoid big obvious ticketed shows. Not punk, hardcore, or metal shows; he's not into them. Don't repeat a place from the last seven scripts. Search. If nothing's good, skip the section entirely.
+   - Around you: one real thing in or near Bushwick or North Brooklyn worth planning for, at least two days out. Same-day is too late to plan. Good picks: something this weekend or next week, a new opening (a shop, cafe, bar, gallery, studio), a lesser-known spot or recurring thing he probably hasn't heard of. Say the day, and a price if it matters. Avoid big obvious ticketed shows. Not punk, hardcore, or metal shows; he's not into them. Never repeat a place or event that has appeared in any past script: grep all of `scripts/` for its name and street before picking it. Search. If nothing's good, skip the section entirely.
    - Daily challenge: one small thing doable today. Rotate across photography, making, body, social, and mind.
    - What he's been learning (see below).
-3. Check the last seven files in `scripts/` so the news stories, the Around you places, the challenge, the learning topic, and the recall question don't repeat. Read the whole files, not just headings.
+3. Check the last seven files in `scripts/` so the news stories, the challenge, and the recall question don't repeat, and the last fourteen so the learning topic doesn't repeat. Read the whole files, not just headings. For Around you, check every file in `scripts/` (see above).
 4. Write `scripts/YYYY-MM-DD.md`, commit, and push to main. The push renders the audio.
 
 ## What he's been learning
-This segment reinforces things Ziad has actually been learning, so they stick. The source is `learning.md` in this repo: a list of concepts he chose to add. Don't look through his conversations, email, or memory for topics.
-- Pick one topic from `learning.md` that hasn't been covered in the last seven scripts, preferring newer entries. Teach it one level deeper, or connect it to something new. Use the context line on the entry so he remembers where it came from ("remember picking the voice off that leaderboard? Here's how those Elo scores work.").
+This segment teaches one idea, one level deeper than he already knows it. It should range widely across subjects, not just photography, A.I., and this podcast's own pipeline. Draw from three sources, in this order of preference:
+
+1. `learning.md` in this repo: concepts he chose to add, plus concepts seeded from his life. Prefer entries not taught in the last fourteen scripts, and newer entries first. Use the entry's context line for a light "remember" framing ("remember pricing out that shared car? Here's what a lease is really charging you.").
+2. His Claude memory (the memory tools, read-only). Skim the file list and pick a concept that sits behind something he's doing or deciding: a project, a purchase, a trip, a hobby, a problem he's working on. Don't search his email or chats, only memory.
+3. A wide fallback list when nothing above fits: history, science, biology, economics and money, cities and urban design, architecture, design history, art history, food and cooking science, language and words, psychology and habits, music, geography and weather, the body and training, materials and how things are made, plus photography and lighting.
+
+Variety rules:
+- At most two tech or photo topics (A.I., software, cameras, audio, computers) in any seven-day stretch. Look at the last six scripts before choosing.
+- No more topics about how this podcast is built (feeds, audio formats, GitHub, TTS, loudness) unless he adds a new one to `learning.md`.
+- Don't teach the same subject area two days in a row.
+
+Privacy for memory-derived topics (the repo and audio are public):
+- Teach the general concept only. The "remember" line can name the kind of thing he did ("that shelf build", "pricing a used car", "the winter trip"), never people's names, employers' internal projects, money amounts, dates, places he's staying, health, relationships, or anything from a work file beyond what's already public (that he shoots silverware at Godinger).
+- If a topic can't be framed without a personal detail, drop the "remember" framing or pick another topic.
+- Don't add anything to memory or to `learning.md` during the run.
+
 - Recall question: near the top, ask one quick question about a topic covered three to ten days ago, so he can think about it while he moves. Answer it at the very end. One sentence each. If there's nothing old enough yet, skip it.
-- If `learning.md` has nothing new, fall back to a topic next to his interests (lighting and photography, A.I. image and audio tools, 3D printing and making, bikes and running), and skip the "remember" framing.
 
 ## Format
 - 650 to 800 words, about five minutes spoken.
