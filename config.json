@@ -9,17 +9,15 @@
     "model": "elevenlabs/eleven-v4",
     "voice": "george",
     "max_chunk_chars": 3500,
-    "direction": ""
+    "direction": "",
+    "section_pause": 1.5
   },
   "samples": [
     {"label": "Eleven v4 (George, current)", "model": "elevenlabs/eleven-v4", "voice": "george"},
-    {"label": "Simba 3.5 (Henry)", "model": "speechify/simba-3.5", "voice": "henry"},
-    {"label": "Simba 3.5 (Carly)", "model": "speechify/simba-3.5", "voice": "carly"},
-    {"label": "Eleven v4 Turbo (Roger)", "model": "elevenlabs/eleven-v4-turbo", "voice": "roger"},
-    {"label": "Eleven v4 Turbo (Chris)", "model": "elevenlabs/eleven-v4-turbo", "voice": "chris"},
-    {"label": "Eleven v4 Turbo (River)", "model": "elevenlabs/eleven-v4-turbo", "voice": "river"},
-    {"label": "Eleven v4 Turbo (Jessica)", "model": "elevenlabs/eleven-v4-turbo", "voice": "jessica"},
-    {"label": "Fish Audio Drama 3 (default voice, relaxed)", "model": "fish-audio/drama-3", "voice": "", "direction": "[relaxed and warm, like a friend on a morning walk]"},
-    {"label": "Gemini 3.8 Flash TTS (Umbriel)", "model": "google/gemini-3.8-flash-tts", "voice": "Umbriel"}
+    {"label": "River, as before", "model": "elevenlabs/eleven-v4-turbo", "voice": "river"},
+    {"label": "River, new script", "model": "elevenlabs/eleven-v4-turbo", "voice": "river", "script": "sample-friend.md"},
+    {"label": "River, new script, relaxed tag", "model": "elevenlabs/eleven-v4-turbo", "voice": "river", "script": "sample-friend.md", "direction": "[relaxed, gentle, casual, like chatting with a close friend]"},
+    {"label": "River, new script, relaxed tag, toned down", "model": "elevenlabs/eleven-v4-turbo", "voice": "river", "script": "sample-friend.md", "direction": "[relaxed, gentle, casual, like chatting with a close friend]", "params": { "provider": { "options": { "elevenlabs": { "voice_settings": { "stability": 0.5, "style": 0 } } } } }},
+    {"label": "River, new script, relaxed tag, toned down, slower", "model": "elevenlabs/eleven-v4-turbo", "voice": "river", "script": "sample-friend.md", "direction": "[relaxed, gentle, casual, like chatting with a close friend]", "params": { "provider": { "options": { "elevenlabs": { "voice_settings": { "stability": 0.5, "style": 0 } } } }, "speed": 0.92 }}
   ]
 }

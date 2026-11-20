@@ -56,6 +56,13 @@ def speakable(md: str) -> str:
     return re.sub(r"\n{3,}", "\n\n", text).strip()
 
 
+def speakable_sections(md: str) -> list:
+    """Speakable text split at each # heading, so topics get a longer pause between them."""
+    md = re.sub(r"<!--.*?-->", "", md, flags=re.S)
+    parts = re.split(r"(?m)^\s*#.*$", md)
+    return [t for t in (speakable(p) for p in parts) if t]
+
+
 def chunks(text: str, limit: int):
     """Split on paragraphs, then sentences, never mid-sentence."""
     parts, cur = [], ""
@@ -76,7 +83,7 @@ def chunks(text: str, limit: int):
 PCM_ONLY = ("google/",)   # these providers reject mp3 and return raw 24kHz 16-bit mono PCM
 
 
-def tts(text: str, model: str, voice: str):
+def tts(text: str, model: str, voice: str, params=None):
     """Returns (audio_bytes, fmt) where fmt is 'mp3' or 'pcm'."""
     key = os.environ.get("OPENROUTER_API_KEY")
     if not key:
@@ -86,6 +93,7 @@ def tts(text: str, model: str, voice: str):
         d = {"model": model, "input": text, "response_format": fmt}
         if voice:                     # empty voice = the model's default voice
             d["voice"] = voice
+        d.update(params or {})        # e.g. speed, or provider.options.elevenlabs.voice_settings
         return json.dumps(d).encode()
     body = payload(fmt)
     for attempt in range(4):
@@ -118,33 +126,42 @@ def tts(text: str, model: str, voice: str):
             raise
 
 
-def render(text: str, model: str, voice: str, out: Path, limit: int, direction: str = ""):
-    """TTS each chunk, normalise to one format, join with short pauses, encode MP3.
+def render(sections, model: str, voice: str, out: Path, limit: int, direction: str = "",
+           params=None):
+    """TTS each chunk, normalise to one format, join with pauses, encode MP3.
 
+    sections is a list of texts (one per topic) or a single string. Chunks inside a
+    section get a short gap; sections get a longer one (tts.section_pause seconds).
     direction is an Eleven v4 style audio tag like "[relaxed, warm]". It goes at the
     start of every chunk, because a tag only carries forward within one request.
     """
+    if isinstance(sections, str):
+        sections = [sections]
+    pause = float(CFG["tts"].get("section_pause", 1.5))
     out.parent.mkdir(parents=True, exist_ok=True)
     with tempfile.TemporaryDirectory() as tmp:
         tmp = Path(tmp)
-        wavs = []
-        for i, piece in enumerate(chunks(text, limit)):
+        wavs = []   # (section index, wav)
+        pieces = [(si, c) for si, sec in enumerate(sections) for c in chunks(sec, limit)]
+        for i, (si, piece) in enumerate(pieces):
             raw = tmp / f"raw{i}"
-            data, fmt = tts(f"{direction} {piece}" if direction else piece, model, voice)
+            data, fmt = tts(f"{direction} {piece}" if direction else piece, model, voice, params)
             raw.write_bytes(data)
             wav = tmp / f"c{i}.wav"
             src = ["-f", "s16le", "-ar", "24000", "-ac", "1"] if fmt == "pcm" else []
             subprocess.run(["ffmpeg", "-y", "-loglevel", "error", *src, "-i", raw,
                             "-ar", "44100", "-ac", "1", wav], check=True)
-            wavs.append(wav)
-        gap = tmp / "gap.wav"
-        subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "lavfi", "-i",
-                        "anullsrc=r=44100:cl=mono", "-t", "0.6", gap], check=True)
+            wavs.append((si, wav))
+        gaps = {}
+        for name, secs in (("gap", 0.6), ("pause", pause)):
+            gaps[name] = tmp / f"{name}.wav"
+            subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "lavfi", "-i",
+                            "anullsrc=r=44100:cl=mono", "-t", str(secs), gaps[name]], check=True)
         lst = tmp / "list.txt"
         seq = []
-        for i, w in enumerate(wavs):
+        for i, (si, w) in enumerate(wavs):
             if i:
-                seq.append(gap)
+                seq.append(gaps["pause"] if si != wavs[i - 1][0] else gaps["gap"])
             seq.append(w)
         lst.write_text("".join(f"file '{p}'\n" for p in seq))
         subprocess.run(["ffmpeg", "-y", "-loglevel", "error", "-f", "concat", "-safe", "0",
@@ -273,10 +290,11 @@ def cmd_episodes():
         out = EPISODES / f"{script.stem}.mp3"
         if out.exists():
             continue
-        text = speakable(script.read_text())
-        print(f"rendering {script.name}: {len(text)} chars with {tts_cfg['model']}")
-        render(text, tts_cfg["model"], tts_cfg["voice"], out, tts_cfg["max_chunk_chars"],
-               tts_cfg.get("direction", ""))
+        secs = speakable_sections(script.read_text())
+        print(f"rendering {script.name}: {sum(map(len, secs))} chars in {len(secs)} sections "
+              f"with {tts_cfg['model']}")
+        render(secs, tts_cfg["model"], tts_cfg["voice"], out, tts_cfg["max_chunk_chars"],
+               tts_cfg.get("direction", ""), tts_cfg.get("params"))
         print(f"  -> {out.name} ({duration(out)}s)")
         made += 1
     prune()
@@ -285,7 +303,6 @@ def cmd_episodes():
 
 
 def cmd_samples():
-    sample_text = speakable((SCRIPTS / "sample.md").read_text())
     rows = []
     for i, s in enumerate(CFG["samples"]):
         name = f"{i + 1:02d}-" + re.sub(r"[^a-z0-9]+", "-", s["label"].lower()).strip("-") + ".mp3"
@@ -293,8 +310,9 @@ def cmd_samples():
         try:
             if not out.exists():
                 print(f"sampling {s['label']}")
-                render(sample_text, s["model"], s["voice"], out, CFG["tts"]["max_chunk_chars"],
-                       s.get("direction", ""))
+                text = speakable_sections((SCRIPTS / s.get("script", "sample.md")).read_text())
+                render(text, s["model"], s["voice"], out, CFG["tts"]["max_chunk_chars"],
+                       s.get("direction", ""), s.get("params"))
             rows.append((s, name, None))
         except Exception as e:  # keep going so one bad model doesn't sink the page
             annotate(f"sample {s['label']} failed: {str(e)[:300]}")
@@ -304,7 +322,7 @@ def cmd_samples():
         body = (f'<audio controls preload="none" src="{name}"></audio>' if name
                 else f'<p class="err">Failed: {html.escape(err)}</p>')
         cards.append(f"""<section><h2>{html.escape(s['label'])}</h2>
-<p class="m">{html.escape(s['model'])} &middot; {html.escape(s['voice'])}{(' &middot; ' + html.escape(s['direction'])) if s.get('direction') else ''}</p>{body}</section>""")
+<p class="m">{html.escape(s['model'])} &middot; {html.escape(s['voice'] or 'default voice')}{(' &middot; ' + html.escape(s['direction'])) if s.get('direction') else ''}{(' &middot; ' + html.escape(json.dumps(s['params']))) if s.get('params') else ''}</p>{body}</section>""")
     page = f"""<!doctype html><html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <title>Voice Sampler</title><style>
