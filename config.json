@@ -18,6 +18,6 @@
     {"label": "River, new script", "model": "elevenlabs/eleven-v4-turbo", "voice": "river", "script": "sample-friend.md"},
     {"label": "River, new script, relaxed tag", "model": "elevenlabs/eleven-v4-turbo", "voice": "river", "script": "sample-friend.md", "direction": "[relaxed, gentle, casual, like chatting with a close friend]"},
     {"label": "River, new script, relaxed tag, toned down", "model": "elevenlabs/eleven-v4-turbo", "voice": "river", "script": "sample-friend.md", "direction": "[relaxed, gentle, casual, like chatting with a close friend]", "params": { "provider": { "options": { "elevenlabs": { "voice_settings": { "stability": 0.5, "style": 0 } } } } }},
-    {"label": "River, new script, relaxed tag, toned down, slower", "model": "elevenlabs/eleven-v4-turbo", "voice": "river", "script": "sample-friend.md", "direction": "[relaxed, gentle, casual, like chatting with a close friend]", "params": { "provider": { "options": { "elevenlabs": { "voice_settings": { "stability": 0.5, "style": 0 } } } }, "speed": 0.92 }}
+    {"label": "River, new script, slower and calmest", "model": "elevenlabs/eleven-v4-turbo", "voice": "river", "script": "sample-friend.md", "direction": "[relaxed, gentle, unhurried, speaking slowly, like chatting with a close friend]", "params": { "provider": { "options": { "elevenlabs": { "voice_settings": { "stability": 0.75, "style": 0 } } } } }}
   ]
 }
