@@ -11,6 +11,17 @@
     <itunes:block>Yes</itunes:block>
     <itunes:category text="News"/>
     <item>
+      <title>Morning Memo - Sat Nov 21</title>
+      <description>Hi, good morning, Ziad. Hope you got some sleep. Today&#x27;s Saturday, November twenty-first. One hard run on the calendar, then a dry, mild day that&#x27;s pretty much all yours.</description>
+      <enclosure url="https://ppgoesbig.github.io/pod_pals/m-ER4yYdQyfNBC21IJ/episodes/2026-11-21.mp3" length="3577983" type="audio/mpeg"/>
+      <guid isPermaLink="false">memo-2026-11-21</guid>
+      <pubDate>Sat, 21 Nov 2026 06:00:00 -0400</pubDate>
+      <itunes:duration>4:58</itunes:duration>
+      <itunes:explicit>false</itunes:explicit>
+      <podcast:transcript url="https://ppgoesbig.github.io/pod_pals/m-ER4yYdQyfNBC21IJ/episodes/2026-11-21.vtt" type="text/vtt" language="en"/>
+      <podcast:transcript url="https://ppgoesbig.github.io/pod_pals/m-ER4yYdQyfNBC21IJ/episodes/2026-11-21.txt" type="text/plain" language="en"/>
+    </item>
+    <item>
       <title>Morning Memo - Fri Nov 20</title>
       <description>Morning, Ziad. Friday the twentieth. A warm, sunny one, with a short work block on the calendar and a late plan tonight.</description>
       <enclosure url="https://ppgoesbig.github.io/pod_pals/m-ER4yYdQyfNBC21IJ/episodes/2026-11-20.mp3" length="3484256" type="audio/mpeg"/>
@@ -328,17 +339,6 @@
       <itunes:explicit>false</itunes:explicit>
       <podcast:transcript url="https://ppgoesbig.github.io/pod_pals/m-ER4yYdQyfNBC21IJ/episodes/2026-10-23.vtt" type="text/vtt" language="en"/>
       <podcast:transcript url="https://ppgoesbig.github.io/pod_pals/m-ER4yYdQyfNBC21IJ/episodes/2026-10-23.txt" type="text/plain" language="en"/>
-    </item>
-    <item>
-      <title>Morning Memo - Thu Oct 22</title>
-      <description>Morning, Ziad. Thursday the twenty-second. Easy weather, a full workday, and one tight handoff right at the end of it.</description>
-      <enclosure url="https://ppgoesbig.github.io/pod_pals/m-ER4yYdQyfNBC21IJ/episodes/2026-10-22.mp3" length="3545697" type="audio/mpeg"/>
-      <guid isPermaLink="false">memo-2026-10-22</guid>
-      <pubDate>Thu, 22 Oct 2026 06:00:00 -0400</pubDate>
-      <itunes:duration>4:55</itunes:duration>
-      <itunes:explicit>false</itunes:explicit>
-      <podcast:transcript url="https://ppgoesbig.github.io/pod_pals/m-ER4yYdQyfNBC21IJ/episodes/2026-10-22.vtt" type="text/vtt" language="en"/>
-      <podcast:transcript url="https://ppgoesbig.github.io/pod_pals/m-ER4yYdQyfNBC21IJ/episodes/2026-10-22.txt" type="text/plain" language="en"/>
     </item>
   </channel>
 </rss>
