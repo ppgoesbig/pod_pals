@@ -1,0 +1,37 @@
+Hey, good morning, Ziad. Hope you slept okay. It's Tuesday, November twenty-fourth. A dry, mild one, with a regular workday and something on there tonight.
+
+Here's one to think about while you move. What do you multiply a lease's money factor by to turn it into an interest rate? Answer's at the end.
+
+Weather's easy today. Dry all day and mild, probably into the sixties this afternoon, and the wind picks up a bit late, with gusts near twenty on the ride home. Thursday's the one to watch. The storm now looks like rain from late morning into early Friday, one to two inches, with gusts in the thirties.
+
+Okay, the day. Calendar has an easy zone two run at seven, thirty minutes.
+
+Then Godinger, nine to five.
+
+And plans on there at eight tonight. So there's a nice gap after work to eat something real first.
+
+Alright, news.
+
+The Nvidia story flipped. Last week the board said it wouldn't bring Jensen Huang back as C.E.O. On Monday it did, in a unanimous vote. The board said it heard from senior people in the U.S. government and found no national security risk. A foreign intelligence investigation into him is still going, though. The finance chief, who'd been running things in the meantime, goes back to her old job.
+
+The U.N. climate summit in Turkey ended with no deal at all. More than a hundred and ninety countries couldn't agree on what to say about coal, oil, and gas. The E.U. and the countries most at risk refused a version that left fossil fuels out, after pushback led by Saudi Arabia. It's the first time since two thousand nine that those talks ended without a final agreement.
+
+And a strange one from math. Anthropic put out a long paper saying one of its A.I. models proved a famous problem from nineteen seventy-nine, about how hard certain calculations really are. A computer proof checker signed off on it. Apparently OpenAI posted its own proof of the same thing about five hours later. No human mathematicians have checked either one yet, so it's a claim for now, not a result.
+
+Okay, a small one for your calendar. There's a winter market from the Bushwick Vendors Market crew on George Street, Saturday, December twelfth. No hours posted yet, so call it a hold-the-date. But it's walking distance, and it's a good excuse to find a gift that didn't come in a box from a warehouse.
+
+Today's challenge is for your head. Pick one small decision you've been circling for a while. Which thing to buy, when to call someone back, whether to say yes to something. Give yourself until the end of the ride home, then just decide. Most of the weight of a small decision is carrying it around, not making it.
+
+Okay, something you've been learning. Remember printing parts for that iMac turned into a monitor? Here's what actually separates P.L.A. and P.E.T.G., and why one of them strings.
+
+Start with glass transition. Plastic doesn't go straight from solid to liquid. Before it melts, there's a temperature where the long chains inside it loosen up, and the part goes from rigid to kind of rubbery. That's the glass transition. For P.L.A. it's low, around fifty-five to sixty Celsius. P.E.T.G. holds out until about eighty. So for anything sitting near warm electronics, like a screen with a backlight behind it, P.E.T.G. is the safer bet. P.L.A. can slowly sag there, even without ever melting.
+
+Next, layer adhesion. A printed part is a stack of thin layers, and each new one has to weld onto the one below. That weld happens when hot chains from the new layer wiggle into the old layer before it cools. P.E.T.G. prints hotter and stays soft longer, so it fuses better. P.L.A. is stiffer, but more brittle. Either way, the joins between layers are the weak direction. So you want to orient a part so the load runs along the layers, not trying to peel them apart.
+
+Now the stringing. That same soft, sticky quality is the catch. When the nozzle jumps across a gap, P.E.T.G. keeps oozing and pulls out thin hairs, like melted cheese. The fixes are pulling the filament back a little before each jump, printing a few degrees cooler, and keeping the spool dry. P.E.T.G. soaks up moisture from the air, and that water boils in the nozzle, which makes the oozing worse.
+
+So, short version. P.L.A. is easy and stiff, but it hates heat. P.E.T.G. is tougher and handles heat, but it's messier to print.
+
+So: calendar says run at seven, Godinger till five, plans at eight. Make that one decision by the time you're home. The answer: twenty-four hundred.
+
+Have a good Tuesday, Ziad.
